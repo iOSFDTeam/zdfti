@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScaleVisualView">
+            <connections>
+                <outlet property="sizeLabel" destination="h01-t6-QSp" id="EnS-Fh-MBD"/>
+                <outlet property="windowButton" destination="aaz-HS-d1I" id="y4m-YR-BNo"/>
+                <outlet property="forthrightLabel" destination="k2y-CN-amR" id="oYg-mo-hn2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="wFz-Ft-Czi" clearsContextBeforeDrawing="NO">
+            <rect key="frame" x="0.0" y="0.0" width="185.7" height="198.8"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button contentMode="topRight" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaz-HS-d1I">
+                    <rect key="frame" x="9" y="39" width="152.9" height="116.9"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="of can chapter image view" image="inking_pad">
+                        <color key="titleColor" red="0.04232832189974493" green="0.97242135185893536" blue="0.16509144212788282" alpha="0.89519857371454686" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected" title="time text" image="visible">
+                        <color key="titleColor" red="0.394796696" green="0.83161484770000005" blue="0.75892637900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" title="at mode with view by" image="speed_item">
+                        <color key="titleColor" red="0.0" green="0.95887864639451065" blue="0.3708355831812451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <label userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="text address at at" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h01-t6-QSp" hidden="YES" numberOfLines="9">
+                    <rect key="frame" x="10" y="36.4" width="152.9" height="17.6"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="237" verticalHuggingPriority="308" text="index view time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2y-CN-amR" clipsSubviews="NO" numberOfLines="9">
+                    <rect key="frame" x="-8" y="12" width="152.9" height="23.3"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="40R-b6-jcT"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="h01-t6-QSp" firstAttribute="leading" secondItem="40R-b6-jcT" secondAttribute="leading" constant="2" id="fyd-M2-1jY"/>
+                <constraint firstAttribute="trailing" secondItem="aaz-HS-d1I" secondAttribute="trailing" constant="3" id="3BT-oY-7wC"/>
+                <constraint firstItem="aaz-HS-d1I" firstAttribute="leading" secondItem="40R-b6-jcT" secondAttribute="leading" constant="3" id="0P8-XF-02H"/>
+                <constraint firstItem="40R-b6-jcT" firstAttribute="bottom" secondItem="k2y-CN-amR" secondAttribute="bottom" constant="3" id="PT6-MV-LWf"/>
+                <constraint firstItem="40R-b6-jcT" firstAttribute="trailing" secondItem="h01-t6-QSp" secondAttribute="trailing" constant="4" id="Frb-Vy-jQp"/>
+                <constraint firstItem="k2y-CN-amR" firstAttribute="top" secondItem="h01-t6-QSp" secondAttribute="bottom" constant="6" id="55b-gh-Yc3"/>
+                <constraint firstItem="aaz-HS-d1I" firstAttribute="top" secondItem="wFz-Ft-Czi" secondAttribute="top" constant="3" id="kxs-DD-wWT"/>
+                <constraint firstItem="40R-b6-jcT" firstAttribute="trailing" secondItem="k2y-CN-amR" secondAttribute="trailing" constant="3" id="RIl-ap-4in"/>
+                <constraint firstItem="h01-t6-QSp" firstAttribute="top" secondItem="aaz-HS-d1I" secondAttribute="bottom" constant="4" id="OHS-0w-0Ej"/>
+                <constraint firstItem="k2y-CN-amR" firstAttribute="leading" secondItem="40R-b6-jcT" secondAttribute="leading" id="UtJ-xf-BzF"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-43.988250539729027" y="-179.82400425273399"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="inking_pad" width="127.4" height="124.6"/>
+        <image name="speed_item" width="127.4" height="124.6"/>
+        <image name="visible" width="127.4" height="124.6"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="0.8851337942794069" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

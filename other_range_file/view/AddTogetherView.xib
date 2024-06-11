@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddTogetherView">
+            <connections>
+                <outlet property="chapterTinOnButton" destination="hw8-NG-MGl" id="slX-RE-Ksl"/>
+                <outlet property="exampleLabel" destination="rOS-4N-qly" id="PW0-KT-lUO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="BMS-Xt-soS" clipsSubviews="NO">
+            <rect key="frame" x="0.0" y="0.0" width="422.6" height="94.8"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="image frame" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rOS-4N-qly" autoresizesSubviews="NO" numberOfLines="9" highlighted="YES">
+                    <rect key="frame" x="10" y="12" width="150.0" height="64.3"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button contentMode="topRight" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="fill" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hw8-NG-MGl">
+                    <rect key="frame" x="145" y="2" width="208.5" height="64.3"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="aware priority" image="numbering">
+                        <color key="titleColor" red="0.25211438244118024" green="1" blue="0.33812979006485494" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="disabled" title="image will" image="picture_img">
+                        <color key="titleColor" red="0.27336709388405372" green="0.88195445354464708" blue="0.67461929628997871" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected" title="view engagement glass" image="high_status_img">
+                        <color key="titleColor" red="0.24157197923652854" green="0.84354993676721274" blue="0.59298557481727276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="7xf-D0-Ag4"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="rOS-4N-qly" firstAttribute="leading" secondItem="7xf-D0-Ag4" secondAttribute="leading" constant="6" id="040-4l-t2R"/>
+                <constraint firstItem="hw8-NG-MGl" firstAttribute="leading" secondItem="rOS-4N-qly" secondAttribute="trailing" constant="3" id="RCH-0l-tyH"/>
+                <constraint firstItem="7xf-D0-Ag4" firstAttribute="trailing" secondItem="hw8-NG-MGl" secondAttribute="trailing" constant="7" id="qDU-ot-v5f"/>
+                <constraint firstAttribute="bottom" secondItem="hw8-NG-MGl" secondAttribute="bottom" constant="1" id="lyZ-Gp-kja"/>
+                <constraint firstItem="rOS-4N-qly" firstAttribute="top" secondItem="BMS-Xt-soS" secondAttribute="top" constant="3" id="Gw4-xd-NmF"/>
+                <constraint firstAttribute="bottom" secondItem="rOS-4N-qly" secondAttribute="bottom" constant="5" id="2S8-oI-uSL"/>
+                <constraint firstItem="rOS-4N-qly" firstAttribute="width" relation="lessThanOrEqual" secondItem="BMS-Xt-soS" secondAttribute="width" multiplier="0.5" id="yPz-Lb-A7e" constant="5"/>
+                <constraint firstItem="hw8-NG-MGl" firstAttribute="top" secondItem="BMS-Xt-soS" secondAttribute="top" constant="6" id="dug-ke-R1a"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="90.77127158494772" y="-216.62436549514106"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="numbering" width="73.1" height="59.1"/>
+        <image name="high_status_img" width="73.1" height="59.1"/>
+        <image name="picture_img" width="73.1" height="59.1"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

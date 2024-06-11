@@ -1,0 +1,82 @@
+
+/* Class = "UITextField"; placeholder = "填写内容"; ObjectID = "nta-io-uFV"; */
+"nta-io-uFV.placeholder" = "填写内容";
+
+/* Class = "UITextField"; placeholder = "填写内容"; ObjectID = "ciq-nM-DxN"; */
+"ciq-nM-DxN.placeholder" = "填写内容";
+
+/* Class = "UITextField"; placeholder = "填写内容"; ObjectID = "KI1-Bf-NRt"; */
+"KI1-Bf-NRt.placeholder" = "填写内容";
+
+/* Class = "UILabel"; text = "姓名："; ObjectID = "vZq-IP-bZW"; */
+"vZq-IP-bZW.text" = "姓名：";
+
+/* Class = "UILabel"; text = "地址："; ObjectID = "nCY-24-UP6"; */
+"nCY-24-UP6.text" = "地址：";
+
+/* Class = "UILabel"; text = "手机："; ObjectID = "2td-Xx-b4s"; */
+"2td-Xx-b4s.text" = "手机：";
+
+/* Class = "UITextField"; placeholder = "填写内容"; ObjectID = "2mh-uy-jV4"; */
+"2mh-uy-jV4.placeholder" = "填写内容";
+
+/* Class = "UISegmentedControl"; c43-Ep-2AO.segmentTitles[0] = "寄信件"; ObjectID = "c43-Ep-2AO"; */
+"c43-Ep-2AO.segmentTitles[0]" = "寄信件";
+
+/* Class = "UISegmentedControl"; c43-Ep-2AO.segmentTitles[1] = "寄邮箱"; ObjectID = "c43-Ep-2AO"; */
+"c43-Ep-2AO.segmentTitles[1]" = "寄邮箱";
+
+/* Class = "UISegmentedControl"; c43-Ep-2AO.segmentTitles[2] = "寄短信"; ObjectID = "c43-Ep-2AO"; */
+"c43-Ep-2AO.segmentTitles[2]" = "寄短信";
+
+/* Class = "UILabel"; text = "邮箱："; ObjectID = "qwQ-Ji-3dW"; */
+"qwQ-Ji-3dW.text" = "邮箱：";
+
+/* Class = "UINavigationItem"; title = "设置"; ObjectID = "ftF-BY-LbD"; */
+"ftF-BY-LbD.title" = "设置";
+
+/* Class = "UINavigationItem"; title = "寄信箱"; ObjectID = "yZi-39-IMO"; */
+"yZi-39-IMO.title" = "寄信箱";
+
+/* Class = "UISegmentedControl"; QPA-9X-R7z.segmentTitles[0] = "1年后"; ObjectID = "QPA-9X-R7z"; */
+"QPA-9X-R7z.segmentTitles[0]" = "1年后";
+
+/* Class = "UISegmentedControl"; QPA-9X-R7z.segmentTitles[1] = "2年后"; ObjectID = "QPA-9X-R7z"; */
+"QPA-9X-R7z.segmentTitles[1]" = "2年后";
+
+/* Class = "UISegmentedControl"; QPA-9X-R7z.segmentTitles[2] = "3年后"; ObjectID = "QPA-9X-R7z"; */
+"QPA-9X-R7z.segmentTitles[2]" = "3年后";
+
+/* Class = "UISegmentedControl"; QPA-9X-R7z.segmentTitles[3] = "5年后"; ObjectID = "QPA-9X-R7z"; */
+"QPA-9X-R7z.segmentTitles[3]" = "5年后";
+
+/* Class = "UISegmentedControl"; QPA-9X-R7z.segmentTitles[4] = "10年后"; ObjectID = "QPA-9X-R7z"; */
+"QPA-9X-R7z.segmentTitles[4]" = "10年后";
+
+/* Class = "UINavigationItem"; title = "写信"; ObjectID = "rWd-7H-LoE"; */
+"rWd-7H-LoE.title" = "写信";
+
+/* Class = "UILabel"; text = "多久后收到"; ObjectID = "n3x-yI-xCR"; */
+"n3x-yI-xCR.text" = "多久后收到";
+
+/* Class = "UIButton"; normalTitle = "写信"; ObjectID = "CT6-Ls-cTc"; */
+"CT6-Ls-cTc.normalTitle" = "写信";
+
+/* Class = "UILabel"; text = "寄信方式"; ObjectID = "vyk-Y1-veZ"; */
+"vyk-Y1-veZ.text" = "寄信方式";
+
+/* Class = "UIButton"; normalTitle = "寄信"; ObjectID = "xh9-Gx-0Y0"; */
+"xh9-Gx-0Y0.normalTitle" = "寄信";
+
+/* Class = "UIButton"; normalTitle = "填写寄信地址"; ObjectID = "cU7-rK-7E9"; */
+"cU7-rK-7E9.normalTitle" = "填写寄信地址";
+
+/* Class = "UINavigationItem"; title = "收件地址"; ObjectID = "xbG-wA-Hlq"; */
+"xbG-wA-Hlq.title" = "收件地址";
+
+/* Class = "UIButton"; normalTitle = "设置"; ObjectID = "uiI-c9-sy0"; */
+"uiI-c9-sy0.normalTitle" = "设置";
+
+/* Class = "UIButton"; normalTitle = "寄信箱"; ObjectID = "PGP-co-rzG"; */
+"PGP-co-rzG.normalTitle" = "寄信箱";
+ 

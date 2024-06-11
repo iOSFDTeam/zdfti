@@ -1,0 +1,1786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005443358CDC6F471E79EE65 /* VisualDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA14A73A334E6861337EF28 /* VisualDataModel.h */; };
+		040741FF8AF85D3C07954629 /* AddTogetherDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A64EDA88E4C20F0227B356 /* AddTogetherDataManager.m */; };
+		04ED4E809527F7AC13ABD53D /* ItemLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1242D58E76C83592E85327 /* ItemLightView.m */; };
+		05C94193BD00923E81B6DAE6 /* MentalPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB2412288AA8914662DC15E /* MentalPictureController.m */; };
+		070E4BBE9DB115BBB31C85FD /* DarkNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B786424B91F5A5D1781C90D8 /* DarkNetModel.m */; };
+		076747579C267628759E06D9 /* VisualSystemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720423A98DD374FC8850615 /* VisualSystemModel.m */; };
+		07CF44598C6165FAF28E3085 /* SumDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E572462397A93C88FFEA6844 /* SumDataModel.m */; };
+		080F4695B0CEDCA41EC4D090 /* SumModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E945ED80E918D8ECA4C5E8 /* SumModel.h */; };
+		091A465F80CEF0B49054F65D /* NumberDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B25403784B3B180DC4F97EE /* NumberDataManager.m */; };
+		0A3740519306D95C4DF0F33D /* NumberModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D6AD4CE4A5FAC9ECAE90D962 /* NumberModel.h */; };
+		0B3D46B7A48ACD7B6E6364F8 /* ItemLightDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2242C494718B4CAD431F83 /* ItemLightDataManager.m */; };
+		0B834517ACEE72081E202F84 /* ScaleVisualModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AD324E9A885A132A64FB9FED /* ScaleVisualModel.h */; };
+		0BF84BA08705C4BD9D0691BB /* DarkErrorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA54C939B20AB8CD4019ECF /* DarkErrorController.m */; };
+		0C144404917F8FB07889D1AE /* DistanceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC445E689689C157F3F3A33 /* DistanceDataModel.m */; };
+		0C5446E38055AF62F1A16C8D /* MotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0284D24ACEE2189E838B54C /* MotionViewController.m */; };
+		0CB1434882816D5F4BB23890 /* DarkErrorNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB74AEAB2E121EBB2A447B5 /* DarkErrorNetManager.h */; };
+		0D0B409F86D80854BF97D278 /* ResolveDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A209495A8485E30CF65DA2DF /* ResolveDataManager.h */; };
+		0DB448989021736B1FC78C2C /* CenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B74E8F91A4D15636B6CBFF /* CenterView.m */; };
+		0DF9478DAE9A10810F7DB35E /* DistanceDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D843E1AD40A865C7C36907 /* DistanceDataModel.h */; };
+		0F354D4EAF1BC1DD2F839788 /* AcrossTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BD4605A3E6D3447D78EA98 /* AcrossTool.m */; };
+		1041415FBD67337E5C1679BA /* MentalPictureNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B06342CBBA1AB3504813F72B /* MentalPictureNetModel.m */; };
+		11EA429AAF75E83CA023A8D3 /* VisualDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FA4244BA71AB1E6F4DF766 /* VisualDataManager.h */; };
+		1387447296A7A9A4E653CD30 /* DarkErrorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDA4DBC91BFCA853201597F /* DarkErrorModel.m */; };
+		140441F4AB1A8653DEB410EF /* SpectrumNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98194FF8BC754F40DFECFAD4 /* SpectrumNetModel.m */; };
+		1586492B8751B5442F66D5CB /* VisualSystemNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 345E458EA32D34C842D92343 /* VisualSystemNetModel.m */; };
+		16AD41BB997FA287DA317DEE /* SyrinxOrbForefrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B24925831C6C700B86ED32 /* SyrinxOrbForefrontViewController.m */; };
+		17074205BE5AC7FDAD5A9DC8 /* DescriptionScaleView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF664B92BE3ED87D123715E9 /* DescriptionScaleView.h */; };
+		172346D6B0EB5250A43E60FC /* AddTogetherDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE4D419A9E3065DA122178 /* AddTogetherDataModel.m */; };
+		17AE451D93A23CD9FBEDEEB6 /* DistanceNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42504F9C9AEFBD94D29FCDB3 /* DistanceNetManager.m */; };
+		17B7419FA8C983F0EDA62006 /* DistanceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 277345A28E25D895FE0000D5 /* DistanceModel.h */; };
+		17FC4D6CBF74C1180B25FFE4 /* WillOriginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FF4259898144EC56990FBB /* WillOriginView.m */; };
+		19624565B2945B7C2ADE1FCA /* DarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D747289093646269F79CA4 /* DarkView.h */; };
+		19BF4ABA9EA9F4EFBFD59578 /* ResolveController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A746E8BF647E3C16CB2657 /* ResolveController.h */; };
+		19C14A82BF4822327B37BC12 /* DarkErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3545E4B276D1B612C6A22D /* DarkErrorView.m */; };
+		1B4342D9BC3D71232A9E0B5B /* DarkErrorDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0459895689325BEEB798D /* DarkErrorDataManager.m */; };
+		1B9B4CA78B955FFCF7232429 /* KeyGuideLastModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 097E4895884D86674A252A31 /* KeyGuideLastModel.h */; };
+		1BC647B698C5DBE7FEF135B7 /* OfTinNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF458AAFA953B3E7E7148E /* OfTinNetManager.m */; };
+		1C2F4A6EB421F47A6D986FBE /* DistanceController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC44836B84D8C831599525D /* DistanceController.h */; };
+		1CCA49EC92DE49FEF6F309CF /* VisualDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CF4B49AC262B0FE4D0E6DC /* VisualDataManager.m */; };
+		1D004C319470312EFC884D04 /* DescriptionScaleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897E4562BFC35F31C39E4E7F /* DescriptionScaleController.m */; };
+		1DCF420AA8BF375FF1AA6FF0 /* DescriptionScaleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D464FC0950B454DC973FD21 /* DescriptionScaleController.h */; };
+		1E2C412EAEECF49AFB9EE2C3 /* ResolveModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B0ED44BDA9F6AD456D9F8E33 /* ResolveModel.h */; };
+		20904E06A8BD61FFF40C952C /* DarkErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = E86F47BF95A180FEBF7AF61E /* DarkErrorView.h */; };
+		216847858A164CE86CC972A5 /* LevelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD54479A7E01E847C8FCD83 /* LevelView.h */; };
+		21EC4E8BA549A052D2B6AECA /* AcrossNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F494FB60B64DE7D6C407A /* AcrossNetTool.m */; };
+		224C4806B6C1005414A70151 /* ItemLightDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7F412296C3F7EBCD834A47 /* ItemLightDataManager.h */; };
+		22AB4B55ABC4B82BEBE2EDFE /* VisualSystemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2B04527B6CDBAAC9060579D /* VisualSystemView.xib */; };
+		241B4B13B6908F1BCFC0B915 /* WillOriginDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D484CFF92A5F64F0D272C02 /* WillOriginDataManager.h */; };
+		24434F71A1F6A2CEEC392D56 /* AircraftNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2C4D8BAD7573896152D45B /* AircraftNetModel.h */; };
+		255B4B9296D69F42301D4791 /* AircraftView.h in Headers */ = {isa = PBXBuildFile; fileRef = 24454519B847F1F1EF38785B /* AircraftView.h */; };
+		256F422E871A7EDFE466A9D8 /* ScaleVisualView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDD443BACF3745FFDDF2542 /* ScaleVisualView.xib */; };
+		257243F2A4F7175822F52E84 /* HideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4F4DEC9DEFA81EA5A07AA8 /* HideViewController.m */; };
+		26144AB698DC7C51AC7B2A81 /* DistanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E045B18A8C4AEDF8523F6C /* DistanceModel.m */; };
+		262840A680594082D131B964 /* WillOriginDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCED40BAAE08CC99231FC96D /* WillOriginDataModel.m */; };
+		2690462ABAA52C82ECB4700E /* MotionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F498446BBD883B157CDEDC8C /* MotionViewController.xib */; };
+		26FA443ABB3DBE7C48E9F093 /* DescriptionScaleDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3841DFB1B1CD3E5A2EEF24 /* DescriptionScaleDataManager.m */; };
+		2B254312B44494D8DB9B23BF /* KeyGuideLastController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7F4409BA646FF6A00C667F /* KeyGuideLastController.m */; };
+		2D684B14AC7E8EC8649B9977 /* ResolveDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E8428391D8E607F6898553 /* ResolveDataModel.h */; };
+		2E4A4443BBEBBAA6E2D7C6BE /* OfTinNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B39C4801B4704E508B3B0F4C /* OfTinNetModel.m */; };
+		2F9645EB8CE3879F025BDD19 /* NumberController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27184E77ADB4ABEEDE6D3A19 /* NumberController.m */; };
+		30884677B575D88FA5A300F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10034D509A72D19E86CFE6F3 /* Assets.xcassets */; };
+		30CB4C3281851DB216D4410C /* SpectrumNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9871470CA196E2322B14F8EB /* SpectrumNetManager.m */; };
+		32074CF1ACCF89F0D6E23EFA /* DistanceNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 425C4BAA97EC9092A8E7F6FE /* DistanceNetModel.h */; };
+		33D247A491EF47F38E8BA7AC /* PictureNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2941F2912C92014D8F33E4 /* PictureNetModel.m */; };
+		346348828F4EFC7882EA16B0 /* OfTinView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48EC46C28D0BEC944B07F094 /* OfTinView.h */; };
+		3471429E8507A260021D0058 /* AircraftDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD74BFEB494C89D6FF91BEE /* AircraftDataModel.m */; };
+		349B49FDA179FEE29E45DFFA /* AcrossDataTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC2441CB6C4F9C33B9DD91E /* AcrossDataTool.h */; };
+		34E0432ABE8AA0693B261723 /* ResolveView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF564F18BFCD90E37ECD53B8 /* ResolveView.h */; };
+		351C4A67B51BBC096B470C81 /* PictureDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BA425195504BB32B40005B /* PictureDataModel.m */; };
+		3542416CBC4039BCA2D2DECD /* SpectrumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94424E4BA2AA8DB0E2DE2E8C /* SpectrumView.m */; };
+		37124464AC1E04EBABB01D1D /* DarkNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AD463F8A4059313DE2BED1 /* DarkNetModel.h */; };
+		37B14B2F8839E7730A5E056F /* SpectrumModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C624756B2E6344F227B1A98 /* SpectrumModel.h */; };
+		391B43DE9E43B4E1FA04F82F /* VisualDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF5438CA91FBB520239601C /* VisualDataModel.m */; };
+		396F44B0AF3EAE6A569F5E07 /* WillOriginNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E37480A80365F6BEC9BC8CB /* WillOriginNetManager.m */; };
+		3A65484496E8A0434B29D015 /* DarkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F94B66B3F88F35277CC79B /* DarkView.xib */; };
+		3C5047F19A9636B4FD3896B7 /* ScaleVisualDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D884CCE80C0F80AFFCD2E9B /* ScaleVisualDataManager.h */; };
+		407449E2892C356BCCE51C5F /* AircraftDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10504E22BFFB32F11BC97310 /* AircraftDataManager.m */; };
+		407B41399A5F3446A26BD8A5 /* OfTinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02404E7EA35FB48CD6BB0ABF /* OfTinView.m */; };
+		4179418296AD47E2FA548AFF /* ItemLightModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 03914A30BBA2816AB2713519 /* ItemLightModel.h */; };
+		42FC4FEF9FC8AE125AB7D90D /* KeyGuideLastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C05418D9A38A74CECDFA06D /* KeyGuideLastView.m */; };
+		457049568736DC21AB665DB3 /* KeyGuideLastNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC843E89234B64CD5CB3520 /* KeyGuideLastNetManager.m */; };
+		471F4CF28C775877E81596C2 /* AircraftDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 601E48369B3FAA86C003F84E /* AircraftDataModel.h */; };
+		47BA4F09874C17B80C7AF461 /* DarkDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550485B81AEF0B1F120C801 /* DarkDataManager.m */; };
+		48504E6AB8250BD3804AFF30 /* VisualSystemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE24CA594BE2CD0454E2414 /* VisualSystemView.m */; };
+		488E423BA9E254096F599455 /* DistanceNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBD484D9C3A3A9064994A59 /* DistanceNetModel.m */; };
+		48C24A048A87E9E51142A840 /* ResolveDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69814A339A1FD360A8D89909 /* ResolveDataModel.m */; };
+		49514201B4677FE7D5405E02 /* ScaleVisualNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 88494EADAFF1B18B0753FF1B /* ScaleVisualNetModel.h */; };
+		495E4E17A4392DF34B39CCF7 /* VerbalDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1534E048BBC3DD0094702CF /* VerbalDescriptionViewController.m */; };
+		4B5F4B0992C785BD3755FEB4 /* AcrossDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3B4C2D850AAC5CB660696E /* AcrossDataBase.h */; };
+		4C00463C8FE37BC1CAC25AEC /* AircraftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5962495BA3A89DF49530C380 /* AircraftView.m */; };
+		4D7E4657B055656599A610B8 /* ScaleVisualController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EED490188079DCD330FBF92 /* ScaleVisualController.h */; };
+		4DEC454EB9F5EED42077C146 /* ItemLightController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA44182B04B39D460194CD5 /* ItemLightController.m */; };
+		4FA44D59AB6B5C1509E336D8 /* ResolveNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E4432DBFE4BA7092543408 /* ResolveNetManager.m */; };
+		4FAC40C29A1975DAE8A1090C /* LevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36743C2939CAE0872118A5B /* LevelController.m */; };
+		506448358BB1EBFA0A458A47 /* SpectrumDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F04448E1AA573A667F1EE4BA /* SpectrumDataManager.m */; };
+		510E4DD9AA92ABF2C295357F /* DistanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55924222BD37926DF769F50E /* DistanceController.m */; };
+		517B4078A19CDA324697869D /* VisualNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F74B298ED65FF766F69EBF /* VisualNetModel.h */; };
+		51E747AA92EEB8A0D8FA5215 /* AircraftModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E3424DBABC84CDD2DC3FE5F5 /* AircraftModel.h */; };
+		54F94974B12BE09769509F5A /* VisualSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961147CE932BC71CCA4505D3 /* VisualSystemController.m */; };
+		550A485684B93B0D339B6104 /* MentalPictureDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF4906B6CE57879E17E1D1 /* MentalPictureDataModel.m */; };
+		556F44208818C09070E1F5B6 /* MentalPictureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C841849A54756D76674CCB /* MentalPictureView.h */; };
+		5725472584DD2719FB72BA6D /* MentalPictureNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE94DA48AF21FD78F7A49E3 /* MentalPictureNetModel.h */; };
+		5A31486583E9B5FC127B6E72 /* ItemLightNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAE4B659842D0A76B44B529 /* ItemLightNetModel.m */; };
+		5AEF4DAF9CEE84227DF82328 /* AddTogetherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE4604B2B8A27B6776F01B /* AddTogetherModel.m */; };
+		5B3941A3AC0470B9FE064E27 /* DescriptionScaleDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D541CBBD4D154AC92F8BC7 /* DescriptionScaleDataManager.h */; };
+		5BFA4B77B5023D024197C538 /* OfTinModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 04714967B014CA30594F5D39 /* OfTinModel.h */; };
+		5D6C47EFA473F52D52F735E5 /* ItemLightNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEB41728BC433A55A03B394 /* ItemLightNetManager.m */; };
+		5DE041D29EED1D43128365D6 /* DarkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B774EFA87EC726C6B83F9D5 /* DarkModel.m */; };
+		5E474D7BA6BE4D3A75961D0A /* WillOriginNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 12AE4049B8A6A4676793750C /* WillOriginNetModel.h */; };
+		5E7A4291950A400F411F97D5 /* PictureDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ED024F6CA18AB96946502E5B /* PictureDataManager.h */; };
+		611648E2A5DF3F0D9BAF4E83 /* LevelNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB0472EB5DD720BB125F49A /* LevelNetManager.h */; };
+		617F4508A96732CBF8F206C9 /* AcrossNetBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF7409AADA64F273DBDAE1F /* AcrossNetBase.h */; };
+		61B74BB9B71542D7B849DFEB /* AddTogetherModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D3DD4782910C4B2C2FC0EF66 /* AddTogetherModel.h */; };
+		63C6498986E0CB8A3B3CBD0F /* VisualSystemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC0498EAED796196D5B8CA3 /* VisualSystemView.h */; };
+		64904F92A2691888011B4048 /* KeyGuideLastDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A04ADB806D2F0ED06D216B /* KeyGuideLastDataManager.h */; };
+		66F44439958BFD627A8C95EF /* NumberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB486E92895D00BA28AA0D /* NumberModel.m */; };
+		67C945FABC3EC977DEDDC943 /* MentalPictureModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C94B5E949B5C43920950DD /* MentalPictureModel.h */; };
+		67CE4F30A6F2DDDF53F8FA36 /* NumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1249788195A2DCAD5B3FEF /* NumberView.m */; };
+		68454FCFA3983841D3146E89 /* SyrinxOrbForefrontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C3499BA05C92419BD34B07 /* SyrinxOrbForefrontViewController.xib */; };
+		687C401F98381730066BD7EC /* NumberController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCF4B96AC9AA6363F7924E1 /* NumberController.h */; };
+		69954939856BDD8DA8BCDD60 /* KeyGuideLastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E495B991B59396DC7DB7B /* KeyGuideLastModel.m */; };
+		6BF74B07845D172AE5A1EC2C /* VisualNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 558E4B5EB4D29B478563B534 /* VisualNetManager.h */; };
+		6C274A99A43BA15BE6C8C864 /* WillOriginController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28A4BFDA4CCE286163D26E8 /* WillOriginController.m */; };
+		6C8C47CA82AAE205E8EE2ACC /* LevelDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F4FF4A755A63A22156395 /* LevelDataManager.m */; };
+		6D01467298F319A5869302A1 /* ItemLightView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D584443A27C61EE1FFA1EFE /* ItemLightView.h */; };
+		6F4E4215BC444ACDA99DF094 /* AddTogetherView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0044D9498BD8B9E0D91DD15 /* AddTogetherView.h */; };
+		6F66491DBB3E2849B61BCECE /* ItemLightNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC54BB29BF1D57A0C493D38 /* ItemLightNetManager.h */; };
+		6F7144E189D8A5D4F3B84011 /* LevelDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 96674C87B527836B29A232AF /* LevelDataModel.h */; };
+		7069403EA563918B856BBBBA /* NumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7541A78BF5EF8A7C2D1390 /* NumberView.h */; };
+		70784FF1802E04339998C752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6931462AA68334D55E83A167 /* main.m */; };
+		709D43379E8F901054EAB7E2 /* KeyGuideLastNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC34CB880F965868F079062 /* KeyGuideLastNetModel.h */; };
+		745A4CEEBBB9002855574B28 /* DarkController.m in Sources */ = {isa = PBXBuildFile; fileRef = B870424DB6AA91AB7A8C7978 /* DarkController.m */; };
+		752D4CA899A641FFAC36DEEA /* NumberNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2714ED395FBD772F83F0D37 /* NumberNetManager.m */; };
+		75A744439E44B358788A7031 /* VisualSystemDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 656D4B02852C16F0C78BADA5 /* VisualSystemDataManager.h */; };
+		764B41DE99F7D0F45169C173 /* SumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4F7696FC31295003CA15 /* SumModel.m */; };
+		787548F39A13CD9A74EFFE6A /* OfTinDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 913244118C509DCC87E3DEFC /* OfTinDataManager.h */; };
+		7AC94870B95926DB47FDEDB0 /* ResolveNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3341D8A771C1E65ACD4032 /* ResolveNetManager.h */; };
+		7CBA47DE95D4FE591D22E774 /* VisualSystemNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7249B78BEDE417B721614C /* VisualSystemNetModel.h */; };
+		7D0D4596ACFDF702240A00C8 /* AcrossNetTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B54342E5AF780D64F4C3460B /* AcrossNetTool.h */; };
+		7D6D44CABB387EBCD60EA8CD /* WillOriginDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F44F8F942619393FA1E62A /* WillOriginDataManager.m */; };
+		7D74452D9072B1D25E52EEC0 /* WillOriginNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEA43219C620FF071A06303 /* WillOriginNetManager.h */; };
+		7DED49899237F98D226392CC /* VisualSystemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D8014612A98901DEDE683CFF /* VisualSystemModel.h */; };
+		7E1E43CBB02F96F9C36AEC97 /* OfTinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEB41789562DE83F90C1C21 /* OfTinView.xib */; };
+		7E7447A3BFFF4B0C21663133 /* LevelNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 288D4C63A3BE95E544524B10 /* LevelNetModel.h */; };
+		7E8941B085EFC76DD65F4199 /* SumNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAA455BA322C78F40BDE920 /* SumNetManager.h */; };
+		7F1B4AAD85E0995035F6297C /* VisualView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5704B8EB8B0C429C555995E /* VisualView.m */; };
+		7F22410FACD3F895947BF1C8 /* AcrossTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F34AF3804A226D38770058 /* AcrossTool.h */; };
+		7FA64F4F8EC630142ED1364A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A542509C6EE2C6FE07065F /* LaunchScreen.storyboard */; };
+		81354BD49CEC302BCE7BB7FE /* KeyGuideLastDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E44DFE8F5EBC62DFA916CE /* KeyGuideLastDataModel.h */; };
+		81564993A828F51F496C5FBA /* LevelDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F64FA6B474979B24A48703 /* LevelDataModel.m */; };
+		81774DFFB03CEBD110F560A0 /* NumberNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B30493B89AB28EBBAC50E0B /* NumberNetManager.h */; };
+		81E0456D95A7CBF77B79DCBB /* SpectrumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187C4CC8A0CB7CDDD51537DF /* SpectrumView.xib */; };
+		81F942BB935C8EF2E5E2EC76 /* AircraftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75B448AB1CC1EDC97CA8F6A /* AircraftView.xib */; };
+		83E74E39B0EEAB9325B611D8 /* AcrossDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4810470898FE89DB1706BC3B /* AcrossDataBase.m */; };
+		8418495EA0B258BDAECDB199 /* OfTinDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 742E41C692C58875E9ACA301 /* OfTinDataModel.h */; };
+		8439488EB655F274D4C92243 /* DarkDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6645919150AAA3E080D5F3 /* DarkDataModel.m */; };
+		848149A88E395052B120FCA2 /* AircraftController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63409A8AAD234180CD4044 /* AircraftController.m */; };
+		85BE4F08AE2056A20B69D9A3 /* AircraftController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DA45D28770857F58F6BB70 /* AircraftController.h */; };
+		864A4C5D96881F1DEF46EBB6 /* SpectrumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A21470ABF8A414F421CD57F /* SpectrumController.m */; };
+		874143BE9763CDDD5CDD8A87 /* ResolveDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13294ED39B8BE7D7420CD744 /* ResolveDataManager.m */; };
+		876A4D55A9F166EAB62D5DD4 /* DescriptionScaleDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A93949B3B4869D69FD03A529 /* DescriptionScaleDataModel.h */; };
+		877E46378733B52C1806BCCF /* WillOriginView.h in Headers */ = {isa = PBXBuildFile; fileRef = 36314AC29C132C80A44C1E00 /* WillOriginView.h */; };
+		87CF4B218F561DE0A3D36164 /* DarkErrorNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B5114A3EB222D16561587003 /* DarkErrorNetModel.h */; };
+		88134FA288ECEA17EB9CF651 /* MentalPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94264235AC8D9C0022DB12D0 /* MentalPictureView.m */; };
+		88A147D4AECB383E6BCFB87C /* VisualModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52884B93BA69C71966C04F63 /* VisualModel.h */; };
+		898947D2BFFDAEBF1BEBAF9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D94A98963EB8B2B6096126 /* AppDelegate.m */; };
+		89DE4A31AADEE9EA3512B359 /* PictureNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 670542FA908B282503043CEA /* PictureNetManager.h */; };
+		8A664E8294186CD6A956C689 /* PictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC64593A65D2DC2B67BBD24 /* PictureView.m */; };
+		8B4949D3AAD34135DF72B093 /* LevelDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F284A66861528F1E5FE92D4 /* LevelDataManager.h */; };
+		8D9042D3B2BC530BF2EDC7BC /* DarkController.h in Headers */ = {isa = PBXBuildFile; fileRef = D71041C8A2CE961F607E0B62 /* DarkController.h */; };
+		8E2A4D289D9C54DB858071E0 /* DistanceDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 467346038860E2B82AC6AF55 /* DistanceDataManager.h */; };
+		8E34496BA6F63E52D6545AE3 /* WillOriginModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D946CC85367A5FD43A1A8B /* WillOriginModel.h */; };
+		8F6B4F43AF3469EEBE29CC2C /* VisualController.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F447BCBC9A45B6541C9090 /* VisualController.h */; };
+		8F9D43A4ACD17942AB7143C7 /* ScaleVisualDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 772B43E591FE01F5E727283F /* ScaleVisualDataManager.m */; };
+		909644D2B3867447852406E3 /* WillOriginNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E743E88B8EE264FBB4885A /* WillOriginNetModel.m */; };
+		90AB422FB80D6D2CA0CB5CF6 /* SpectrumView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0904918971C9940438A116A /* SpectrumView.h */; };
+		916F49849A39DE3C7C0421ED /* DescriptionScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E464E11AD27055DC9231553 /* DescriptionScaleView.m */; };
+		92D849FBBDA01B2D191A4106 /* VisualController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B1436495BC9B47FC408540 /* VisualController.m */; };
+		95A04BE484B44C2FF0958391 /* KeyGuideLastDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15554FE997541811E4A576EA /* KeyGuideLastDataModel.m */; };
+		96AF45D896B82B91345D0944 /* ScaleVisualController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF044E2A806A4EBA430A3060 /* ScaleVisualController.m */; };
+		96DC4435A53DAAC266EE62E3 /* DarkDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BB804B7FB5000BC084822B92 /* DarkDataManager.h */; };
+		981443BF92923CB9C9730F42 /* AddTogetherController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF27434B832BD0E19407BC05 /* AddTogetherController.m */; };
+		98ED4803B13A7E66BADF8839 /* AircraftNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 618546FABA57226CA398BE61 /* AircraftNetManager.h */; };
+		99B8424C8120EA56AC585FE3 /* AcrossNetBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04824714B6475FAFECB9D367 /* AcrossNetBase.m */; };
+		99DE471196C04FF8B8D28EC3 /* OfTinController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC149A5B592E1A7E3621AEA /* OfTinController.h */; };
+		9A8349F2AB33814ECED7186C /* SumNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CB42658064DD39BB5D2DBC /* SumNetModel.h */; };
+		9AD84DE19286AF5F8E0EB361 /* DarkErrorModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C05A4E8DBB4929FD9E0B9BCD /* DarkErrorModel.h */; };
+		9B234E44B45F3BF99106C0F2 /* SpectrumDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F1421D93D1D981F84D45EB /* SpectrumDataManager.h */; };
+		9BA446D5A8B4A9D0742FFC1E /* SumDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D7479CAEA87DDA17DD3222 /* SumDataManager.h */; };
+		9C374D4D800CCF351465F097 /* OfTinDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 191B44079F70A91D7BFE2546 /* OfTinDataModel.m */; };
+		9C504BBF9AB39C545723AA6F /* MentalPictureDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3500464ABBCEE173ADB0CB47 /* MentalPictureDataManager.m */; };
+		9D0042D59B24BE13DC29C507 /* VisualNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73084B73AB73A0B93E034D2B /* VisualNetModel.m */; };
+		9D014C5DA75B8B44D2252DC5 /* ItemLightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF114271BABBB3DFF340ED7B /* ItemLightModel.m */; };
+		9D5144FA9B69397B0857C1E3 /* DarkErrorDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B754B4A94955856F9FA8130 /* DarkErrorDataModel.m */; };
+		9DA04A2D9AC392E2CAA46A21 /* ItemLightNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF04A9FA3221C33A7E01A59 /* ItemLightNetModel.h */; };
+		9DB640C2B2F3BCCA16461D4B /* OfTinNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 16364FB096A52999D575459A /* OfTinNetModel.h */; };
+		9EE64FCBBF6FE088C78D46FE /* VisualView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965B4626849FD43171F8199A /* VisualView.xib */; };
+		9F5C4641A416D257B4F02E89 /* SumNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C92493593ECEBBDDDF1C97B /* SumNetModel.m */; };
+		A15C44779FA7BC80C4A623DE /* DarkErrorDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C75C4887B2604B6817D0D0F1 /* DarkErrorDataManager.h */; };
+		A17548DD8AE662FDC6FAFF55 /* AddTogetherView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64C4ED9AF6BFC3A823CB829 /* AddTogetherView.xib */; };
+		A2BB41BB9A4F9D226F59AFA9 /* ResolveNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5714E8B95099A23E44F7A7F /* ResolveNetModel.m */; };
+		A3DC448B861DF9C8F553FDBE /* AircraftNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 204C4C848BEA905CA531F0CE /* AircraftNetModel.m */; };
+		A45A4863B4B8AFC1DA6C1F04 /* WillOriginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A4DBCB311D1604DF79149 /* WillOriginModel.m */; };
+		A4F84D80B48C85B92B10A68C /* MentalPictureDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A32443CB07FF482CC546446 /* MentalPictureDataModel.h */; };
+		A57A478487B105F2069D8A5D /* SpectrumNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C43B42BCAB85DF06791830D2 /* SpectrumNetModel.h */; };
+		A6AF4B2DB8905D245E16D74B /* DistanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BF449FABC6A12B57AEF8F1 /* DistanceView.m */; };
+		A71F4716ABD67CACDEC92E4D /* PictureView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9243D88388A405DE865374 /* PictureView.h */; };
+		A7454510B215FE8F75701BE9 /* NumberNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1492BB823F1671251E458 /* NumberNetModel.m */; };
+		A805432DB8DD12F3D0806D76 /* DarkErrorNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5444EB4DE8BE50C2FEA75 /* DarkErrorNetManager.m */; };
+		A82B4424B0A03227D7C0776C /* ResolveNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E45844BF920F1169CB289164 /* ResolveNetModel.h */; };
+		A8B9400A9C9203703AB46947 /* ScaleVisualNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB485DB51B900420421D15 /* ScaleVisualNetModel.m */; };
+		A90E4F58BFBE6F442B527CBB /* SumView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC643F8A54B638C01F20FE0 /* SumView.m */; };
+		A91846B0BA87305A0E9896AA /* ScaleVisualNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 329A4EC3B6E238A8C42607FF /* ScaleVisualNetManager.h */; };
+		A974486283BAD8CCC845946C /* ItemLightDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6945BCA158CB3888FC04E4 /* ItemLightDataModel.h */; };
+		AA104D92931AE371A3D237EA /* ResolveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EF49CAB083A302D59F6C6E /* ResolveController.m */; };
+		AADE40EE8858A6BCED4895BF /* VisualNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B4ACBA82CA0EE89E045A7 /* VisualNetManager.m */; };
+		ABC947AEA47499479E28F46C /* KeyGuideLastDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 193A43809D11C4EE1771160A /* KeyGuideLastDataManager.m */; };
+		AC6346C0AA3A4B137B6B73AD /* ItemLightController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA454866AD347B876B8F4171 /* ItemLightController.h */; };
+		B19A46E887F2163389A083DB /* LevelNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 024E4C7B8A2A30D5A49E1E04 /* LevelNetManager.m */; };
+		B2A244E2B36AD21EA381ADE2 /* AddTogetherController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0825450DB00BC15E7002B5A4 /* AddTogetherController.h */; };
+		B3674F09AD9A69ADE4BCB677 /* ScaleVisualView.h in Headers */ = {isa = PBXBuildFile; fileRef = FCBF4B5080A06CA429A89A81 /* ScaleVisualView.h */; };
+		B401484A81F422927391C1A3 /* VisualSystemNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F594F7C93B914ACF68450C3 /* VisualSystemNetManager.m */; };
+		B71B4CB48BFA1B43536ED175 /* MentalPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1684394A8C63DE064988B5C /* MentalPictureView.xib */; };
+		B7E7451794D1043C7D64E8EA /* PictureDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23014F9FB5C807A99F193560 /* PictureDataManager.m */; };
+		B81743F588499A4E3D4D9F45 /* DistanceDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1324CA49D87540656FF2A6C /* DistanceDataManager.m */; };
+		B8B14584A8D622630B6E17FB /* AddTogetherDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CAB4F95A3C2EC3FF48E157D /* AddTogetherDataManager.h */; };
+		B9774F5CB15BB5022C32660B /* OfTinNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BD4C10A5F4DAE10B2070C0 /* OfTinNetManager.h */; };
+		BA5F4FB3B1C578208D2BC904 /* SumDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC947929C4D65D56ED5D5D6 /* SumDataManager.m */; };
+		BA9445F19619050B42C6102F /* VisualView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2A46EEBD80491884D39AFD /* VisualView.h */; };
+		BC4C4D65AE6773DAA4031C38 /* SpectrumNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C6064CC587FA4BA669A611A7 /* SpectrumNetManager.h */; };
+		BDB34AA7BF2AAA2E8D889097 /* AddTogetherNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3964878B06AB4E2BA00C3A0 /* AddTogetherNetManager.m */; };
+		C02941A7828E594D975E22A4 /* DarkErrorNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0345BA892A4A5CB06546D8 /* DarkErrorNetModel.m */; };
+		C0CE4E14AFA62F7469F2C5C3 /* VisualSystemDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0C42C08BCE4D4C5998E390 /* VisualSystemDataModel.h */; };
+		C0D64A75A202DB2B734038DF /* SpectrumDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA44AF09901133ADB2E2878 /* SpectrumDataModel.h */; };
+		C14B467185FFCCB117430056 /* AddTogetherNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 753F44098CC1B4E516B156DE /* AddTogetherNetModel.m */; };
+		C24940468C664B9C48443FA0 /* MentalPictureNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3F4D49BA32E44A5BA7D88F /* MentalPictureNetManager.h */; };
+		C2EB40009D527AB7AFF004F1 /* ScaleVisualView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6014490A9BA7CE2165528A2 /* ScaleVisualView.m */; };
+		C303462DB3E980DC28696C94 /* AcrossDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE84F1299898C64400D2C0F /* AcrossDataTool.m */; };
+		C3614852A4952041AE451145 /* SumController.h in Headers */ = {isa = PBXBuildFile; fileRef = 017746F394B78F11AF9C8F27 /* SumController.h */; };
+		C3B049ACBCCC8712D6EBC4BB /* CenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1504EECBD2FF8A48CF5510E /* CenterView.xib */; };
+		C3EE44CBBAA6A693D47C4BD6 /* PictureNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 437742FF8F7472BE3B716128 /* PictureNetManager.m */; };
+		C4E449E28E706D7BDC581F13 /* MentalPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A8464CBE0B30D8D7CACE46 /* MentalPictureModel.m */; };
+		C4F44D0386B4D8373D8F7845 /* NumberDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 293F4C88B57F5B1C7FDD16BE /* NumberDataModel.h */; };
+		C5384A7DA519A84FF05B2B10 /* AddTogetherNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C67423794F35CFF6121DB5C /* AddTogetherNetModel.h */; };
+		C60149579D243C06350971CC /* LevelNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DE467CA8E4555A4481C950 /* LevelNetModel.m */; };
+		C7034BFB8D7B4F355110B677 /* VisualSystemDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E4C88A95BFC8F931D0120 /* VisualSystemDataModel.m */; };
+		C8B9402EB4C7CD2295043F39 /* MentalPictureDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F440B798F5EDD13254BD21 /* MentalPictureDataManager.h */; };
+		C8BE412F96EC7CAB084405EE /* ScaleVisualDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B43C7808607A91F4899E0 /* ScaleVisualDataModel.m */; };
+		C9494646BFB9377382DFBADF /* LevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E504E94BFB4B031C8802414 /* LevelView.m */; };
+		C98747B584E592A58A72287F /* PictureDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 36744004A34726A741CC36CB /* PictureDataModel.h */; };
+		CB804E37AA6BE6437F6DF9DB /* SourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AE42DB9FEAF31B84114BE1 /* SourceViewController.m */; };
+		CC444E7FA1CB7F63AA809889 /* ResolveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E34D4D6BA5661C82839CE3AE /* ResolveModel.m */; };
+		CC7A435CB271AD5A79C77B06 /* JabbingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF104E12843CA41B97EBE8C7 /* JabbingViewController.m */; };
+		CC91489BA208C4E352484908 /* KeyGuideLastNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F000494BBB57C1B616AE868E /* KeyGuideLastNetModel.m */; };
+		CD09462E94EE40148576530A /* SpectrumController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06844BA89AB470E465A7513A /* SpectrumController.h */; };
+		CF3B4634B267B9ABA609C6AC /* DistanceNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 283448B3AC2CE2D0A8847CCB /* DistanceNetManager.h */; };
+		CF884E5DAB7A3BF00F68B739 /* SpectrumDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC44838F3FBA665FA75D6D /* SpectrumDataModel.m */; };
+		D0B84BF994C641EB66D9BE72 /* DarkDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A294BC8ADC2191667B56950 /* DarkDataModel.h */; };
+		D15447718033CD324FBC8C32 /* PictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD4B4FB8863A6BF4715294 /* PictureModel.m */; };
+		D1F14FACBC05FC4A7D0D8E01 /* DarkErrorDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AFE4134BC9BD1F348EA2329 /* DarkErrorDataModel.h */; };
+		D206401F8D9AE6FC082D9FCF /* SumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1E47A2ABD8387D7BC4425C /* SumView.xib */; };
+		D330444196472608963F0024 /* WillOriginController.h in Headers */ = {isa = PBXBuildFile; fileRef = 22134B5D81636B6B6DBDAAA6 /* WillOriginController.h */; };
+		D3B64154AE699D22F89C51B2 /* AircraftDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 224D4AEAB8453FB2B9484419 /* AircraftDataManager.h */; };
+		D3D145A0BAB15883E3B75962 /* DarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2C451885BBFC49B5F73B73 /* DarkView.m */; };
+		D4154F1F9D8412B78FC4AA6F /* ResolveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 226E42399A24710E595DC61E /* ResolveView.m */; };
+		D5FB4E47852C9CC6844FE716 /* OfTinController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E345BEA5070585F7C6584C /* OfTinController.m */; };
+		D6DD4E8A8A55C43F217CC1FB /* DistanceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DB48C3BC7BA1C5450C9C87 /* DistanceView.h */; };
+		D7904C2DB2D26EE2816DBD8A /* DescriptionScaleNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C34FDDBC3ACCE02FF18776 /* DescriptionScaleNetModel.h */; };
+		D80E4BB7BF368F5790959D87 /* ScaleVisualModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 448448B5B91C82970ACD41A2 /* ScaleVisualModel.m */; };
+		D8374196AEB17F635C24E86E /* PictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C42D9980A0DC198A493B3 /* PictureController.m */; };
+		D9184613B1690C1C4259B9C1 /* SumDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF249548CF22DFE38019C1F /* SumDataModel.h */; };
+		DA9C4E69866FE86EDA23B620 /* NumberNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4947208EF8A5F7765051D9 /* NumberNetModel.h */; };
+		DB5D4855987F12B994268490 /* ScaleVisualDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 67884CFE89B7AB963D5F7291 /* ScaleVisualDataModel.h */; };
+		DC1740D3854EE5E6855C05AD /* PictureModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E81D4B92B65D7B6FDF546F01 /* PictureModel.h */; };
+		DD5D4AE4BF889BE165DA1809 /* DescriptionScaleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 773C48C9ACD78F41A1A70843 /* DescriptionScaleModel.h */; };
+		DD724FEB9AEE3741DE98B655 /* PictureNetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BCCB4CE78BA14C7CD1B4BEC5 /* PictureNetModel.h */; };
+		DF6641EA96D89A5AD15B930E /* SumNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B75F439D889A7F11C3699F18 /* SumNetManager.m */; };
+		E01F427AA4027C359B8D3FC8 /* ScaleVisualNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6547CDA771E24DD67097FE /* ScaleVisualNetManager.m */; };
+		E06641EC9425769CA71600CF /* KeyGuideLastNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC148B0933CEC5A6EE8317C /* KeyGuideLastNetManager.h */; };
+		E0AE449DAAD02F5A86A7B324 /* PictureController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF3414FA17A06EDC29556F1 /* PictureController.h */; };
+		E0CE491897479B2CFA3A6074 /* LevelController.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D44E9EAA9A4285001AEA8C /* LevelController.h */; };
+		E1EA4254921FA66175C8086D /* DescriptionScaleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7B4F0493EAC6D1918FC4D7 /* DescriptionScaleModel.m */; };
+		E2DD4C6EA34862C9D47EAC04 /* SumController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF04DCEBF8635BBC0B000AA /* SumController.m */; };
+		E2EF450482CA9E12E67BC6CA /* WillOriginDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 64FC4BB1A2E1D62635FA8168 /* WillOriginDataModel.h */; };
+		E2F9479888987C5238229E11 /* DarkErrorController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8E493FBB17EDF088BA06A9 /* DarkErrorController.h */; };
+		E47940B5AE8B99841C6715B5 /* KeyGuideLastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8D41A68F373ADA7A0C3CBF /* KeyGuideLastView.h */; };
+		E4D142C28DE43D9C1A37E9EC /* DarkNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 90064991A05206DCF16DBBA9 /* DarkNetManager.h */; };
+		E5434777AA2BDF744550E531 /* OfTinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AF41D1AACBF4BE3C5447F8 /* OfTinModel.m */; };
+		E5F64FF98EE8D20F91614B32 /* DescriptionScaleNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A384950BFF6494F5CC9099A /* DescriptionScaleNetManager.h */; };
+		E6864712B920EABBCF20834C /* DescriptionScaleNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A374ACFBF142D67F588CCE3 /* DescriptionScaleNetManager.m */; };
+		E7D243B1A33D4AF0EF5851CE /* SpectrumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E413BA76FA2F3D1EA1D9E /* SpectrumModel.m */; };
+		E83D4BD49E03AA7AA81B80BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670D4B5CABBABF81FD9B88C7 /* Main.storyboard */; };
+		E8924BE3ADFC80187C2B00FC /* VisualSystemDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5429286B48852487DCCE4 /* VisualSystemDataManager.m */; };
+		E8BD4E90A9C372AC123599A3 /* AddTogetherNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 152C4DE880E6BFDAC420BAAD /* AddTogetherNetManager.h */; };
+		E923432D878D4B8C6DB2DC66 /* AircraftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 469F4904830CBB9FC6B59E3B /* AircraftModel.m */; };
+		EAF84FF59D4FFC846A6E0076 /* SumView.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF442ED816DCC46FF87C322 /* SumView.h */; };
+		EB2142599F18333C70082560 /* DarkModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC94A249A0825B01E9BE616 /* DarkModel.h */; };
+		EB404FCEB7D547EB1E7D3029 /* NumberDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EE4DB7A9EF1ED5244FBB26 /* NumberDataManager.h */; };
+		EC994EBCBF3DE39EEE7DF219 /* KeyGuideLastController.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C1412C9EEFB1AD75BD14CB /* KeyGuideLastController.h */; };
+		ED984534A0247BE9B430BB8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101542259B2ACA926139951A /* ViewController.m */; };
+		EDA3482BB8A5D79EF9D86DD2 /* AircraftNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88584DCC8C02D171A54A8477 /* AircraftNetManager.m */; };
+		F15A4F90B46FB2DA78C18FAA /* AddTogetherDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AC644B7ABE6E802300057952 /* AddTogetherDataModel.h */; };
+		F21348D6B89C20195F8D295A /* OfTinDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5224DB99202306F0D5D0B9C /* OfTinDataManager.m */; };
+		F2C1496C9A067D4AFB9DD04C /* DarkNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CA4B0899674E821F681E23 /* DarkNetManager.m */; };
+		F2EA4EFA977DE139ABE1DBB3 /* Pods_zdfti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653F4D0FB7EAB021E91C3A11 /* Pods_zdfti.framework */; };
+		F3C540DCB78B9439BC271EE4 /* VisualSystemNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C44D2395F2A9CB1BCB66C1 /* VisualSystemNetManager.h */; };
+		F44544D1B92D0A6465848D69 /* DescriptionScaleDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB64DD190F0B2659257D713 /* DescriptionScaleDataModel.m */; };
+		F61346CF88890497028DEBD4 /* NumberDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD843F8967043BF40FE08C3 /* NumberDataModel.m */; };
+		F67A4897BCDBFE380EB38657 /* ItemLightDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2847B4BA9098ABDF971C4D /* ItemLightDataModel.m */; };
+		F6CF4459A4355ADD3CE4C31A /* AddTogetherView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE02419588824A912B27138C /* AddTogetherView.m */; };
+		F7DF4A708866E19EB8CDE60F /* MentalPictureController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3140F48ED03A30EF089E25 /* MentalPictureController.h */; };
+		F9FC4DD38CF80E9C70F8796E /* VisualModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C26401D8BD65132F37DBC78 /* VisualModel.m */; };
+		FA3D4DDE872C13D395D7A544 /* MentalPictureNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7416BA59B60175827DABF /* MentalPictureNetManager.m */; };
+		FA6F4271A75B389BFC3F057E /* LevelModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CDA4522A2EF9DC004341605 /* LevelModel.h */; };
+		FA9F403188BD10A912353EE5 /* DescriptionScaleNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D619432297491F3BA2CC68B4 /* DescriptionScaleNetModel.m */; };
+		FD9A4DBD8A60D46D9B40C474 /* FrameNookAndCrannyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95A44DABDEAEBB3FFC36104 /* FrameNookAndCrannyViewController.m */; };
+		FE9F41D2A957EEC8C5D98749 /* VisualSystemController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB840A19E75206ACFA7A24D /* VisualSystemController.h */; };
+		FF0E45EFBC34F0E2EE8AB5CE /* PictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A0461B9060CA48D441B8E9 /* PictureView.xib */; };
+		FFA542D883A3F8F562315E73 /* LevelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 920E4CE3AB5036DE3D1A7CE7 /* LevelModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		017746F394B78F11AF9C8F27 /* SumController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumController.h; sourceTree = "<group>"; };
+		01E045B18A8C4AEDF8523F6C /* DistanceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceModel.m; sourceTree = "<group>"; };
+		02404E7EA35FB48CD6BB0ABF /* OfTinView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfTinView.m; sourceTree = "<group>"; };
+		024E4C7B8A2A30D5A49E1E04 /* LevelNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelNetManager.m; sourceTree = "<group>"; };
+		03914A30BBA2816AB2713519 /* ItemLightModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemLightModel.h; sourceTree = "<group>"; };
+		04714967B014CA30594F5D39 /* OfTinModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfTinModel.h; sourceTree = "<group>"; };
+		04824714B6475FAFECB9D367 /* AcrossNetBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcrossNetBase.m; sourceTree = "<group>"; };
+		06844BA89AB470E465A7513A /* SpectrumController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpectrumController.h; sourceTree = "<group>"; };
+		0825450DB00BC15E7002B5A4 /* AddTogetherController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTogetherController.h; sourceTree = "<group>"; };
+		08D1492BB823F1671251E458 /* NumberNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberNetModel.m; sourceTree = "<group>"; };
+		097E4895884D86674A252A31 /* KeyGuideLastModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyGuideLastModel.h; sourceTree = "<group>"; };
+		0A32443CB07FF482CC546446 /* MentalPictureDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalPictureDataModel.h; sourceTree = "<group>"; };
+		0C05418D9A38A74CECDFA06D /* KeyGuideLastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyGuideLastView.m; sourceTree = "<group>"; };
+		0C92493593ECEBBDDDF1C97B /* SumNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumNetModel.m; sourceTree = "<group>"; };
+		0D884CCE80C0F80AFFCD2E9B /* ScaleVisualDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleVisualDataManager.h; sourceTree = "<group>"; };
+		0DF3414FA17A06EDC29556F1 /* PictureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureController.h; sourceTree = "<group>"; };
+		0E4947208EF8A5F7765051D9 /* NumberNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberNetModel.h; sourceTree = "<group>"; };
+		10034D509A72D19E86CFE6F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		101542259B2ACA926139951A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10504E22BFFB32F11BC97310 /* AircraftDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AircraftDataManager.m; sourceTree = "<group>"; };
+		10A746E8BF647E3C16CB2657 /* ResolveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResolveController.h; sourceTree = "<group>"; };
+		12AE4049B8A6A4676793750C /* WillOriginNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WillOriginNetModel.h; sourceTree = "<group>"; };
+		13294ED39B8BE7D7420CD744 /* ResolveDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResolveDataManager.m; sourceTree = "<group>"; };
+		152C4DE880E6BFDAC420BAAD /* AddTogetherNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTogetherNetManager.h; sourceTree = "<group>"; };
+		15554FE997541811E4A576EA /* KeyGuideLastDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyGuideLastDataModel.m; sourceTree = "<group>"; };
+		15B74E8F91A4D15636B6CBFF /* CenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterView.m; sourceTree = "<group>"; };
+		15BF449FABC6A12B57AEF8F1 /* DistanceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceView.m; sourceTree = "<group>"; };
+		15D44E9EAA9A4285001AEA8C /* LevelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelController.h; sourceTree = "<group>"; };
+		16364FB096A52999D575459A /* OfTinNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfTinNetModel.h; sourceTree = "<group>"; };
+		187C4CC8A0CB7CDDD51537DF /* SpectrumView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpectrumView.xib; sourceTree = "<group>"; };
+		18EE4D419A9E3065DA122178 /* AddTogetherDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTogetherDataModel.m; sourceTree = "<group>"; };
+		191B44079F70A91D7BFE2546 /* OfTinDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfTinDataModel.m; sourceTree = "<group>"; };
+		193A43809D11C4EE1771160A /* KeyGuideLastDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyGuideLastDataManager.m; sourceTree = "<group>"; };
+		1B25403784B3B180DC4F97EE /* NumberDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberDataManager.m; sourceTree = "<group>"; };
+		1B30493B89AB28EBBAC50E0B /* NumberNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberNetManager.h; sourceTree = "<group>"; };
+		1B754B4A94955856F9FA8130 /* DarkErrorDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkErrorDataModel.m; sourceTree = "<group>"; };
+		1C7B4F0493EAC6D1918FC4D7 /* DescriptionScaleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescriptionScaleModel.m; sourceTree = "<group>"; };
+		1CAB4F95A3C2EC3FF48E157D /* AddTogetherDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTogetherDataManager.h; sourceTree = "<group>"; };
+		1CC54BB29BF1D57A0C493D38 /* ItemLightNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemLightNetManager.h; sourceTree = "<group>"; };
+		1F284A66861528F1E5FE92D4 /* LevelDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelDataManager.h; sourceTree = "<group>"; };
+		1FB74AEAB2E121EBB2A447B5 /* DarkErrorNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkErrorNetManager.h; sourceTree = "<group>"; };
+		204C4C848BEA905CA531F0CE /* AircraftNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AircraftNetModel.m; sourceTree = "<group>"; };
+		21D7479CAEA87DDA17DD3222 /* SumDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumDataManager.h; sourceTree = "<group>"; };
+		22134B5D81636B6B6DBDAAA6 /* WillOriginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WillOriginController.h; sourceTree = "<group>"; };
+		224D4AEAB8453FB2B9484419 /* AircraftDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AircraftDataManager.h; sourceTree = "<group>"; };
+		226E42399A24710E595DC61E /* ResolveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResolveView.m; sourceTree = "<group>"; };
+		23014F9FB5C807A99F193560 /* PictureDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureDataManager.m; sourceTree = "<group>"; };
+		23F0459895689325BEEB798D /* DarkErrorDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkErrorDataManager.m; sourceTree = "<group>"; };
+		24454519B847F1F1EF38785B /* AircraftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AircraftView.h; sourceTree = "<group>"; };
+		2550485B81AEF0B1F120C801 /* DarkDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkDataManager.m; sourceTree = "<group>"; };
+		25CF4B49AC262B0FE4D0E6DC /* VisualDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualDataManager.m; sourceTree = "<group>"; };
+		25EF49CAB083A302D59F6C6E /* ResolveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResolveController.m; sourceTree = "<group>"; };
+		27184E77ADB4ABEEDE6D3A19 /* NumberController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberController.m; sourceTree = "<group>"; };
+		277345A28E25D895FE0000D5 /* DistanceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistanceModel.h; sourceTree = "<group>"; };
+		27C44D2395F2A9CB1BCB66C1 /* VisualSystemNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualSystemNetManager.h; sourceTree = "<group>"; };
+		27C841849A54756D76674CCB /* MentalPictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalPictureView.h; sourceTree = "<group>"; };
+		283448B3AC2CE2D0A8847CCB /* DistanceNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistanceNetManager.h; sourceTree = "<group>"; };
+		288D4C63A3BE95E544524B10 /* LevelNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelNetModel.h; sourceTree = "<group>"; };
+		293F4C88B57F5B1C7FDD16BE /* NumberDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberDataModel.h; sourceTree = "<group>"; };
+		29C3499BA05C92419BD34B07 /* SyrinxOrbForefrontViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SyrinxOrbForefrontViewController.xib; sourceTree = "<group>"; };
+		29D94A98963EB8B2B6096126 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D4B4ACBA82CA0EE89E045A7 /* VisualNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualNetManager.m; sourceTree = "<group>"; };
+		2DA5444EB4DE8BE50C2FEA75 /* DarkErrorNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkErrorNetManager.m; sourceTree = "<group>"; };
+		2E504E94BFB4B031C8802414 /* LevelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelView.m; sourceTree = "<group>"; };
+		2F2941F2912C92014D8F33E4 /* PictureNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureNetModel.m; sourceTree = "<group>"; };
+		30E945ED80E918D8ECA4C5E8 /* SumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumModel.h; sourceTree = "<group>"; };
+		329A4EC3B6E238A8C42607FF /* ScaleVisualNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleVisualNetManager.h; sourceTree = "<group>"; };
+		345E458EA32D34C842D92343 /* VisualSystemNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualSystemNetModel.m; sourceTree = "<group>"; };
+		3500464ABBCEE173ADB0CB47 /* MentalPictureDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalPictureDataManager.m; sourceTree = "<group>"; };
+		36314AC29C132C80A44C1E00 /* WillOriginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WillOriginView.h; sourceTree = "<group>"; };
+		36744004A34726A741CC36CB /* PictureDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureDataModel.h; sourceTree = "<group>"; };
+		37E4432DBFE4BA7092543408 /* ResolveNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResolveNetManager.m; sourceTree = "<group>"; };
+		38454CDA8906339B4E4E534E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		386E495B991B59396DC7DB7B /* KeyGuideLastModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyGuideLastModel.m; sourceTree = "<group>"; };
+		3BB64DD190F0B2659257D713 /* DescriptionScaleDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescriptionScaleDataModel.m; sourceTree = "<group>"; };
+		3BD74BE28CF011DDEC3E3190 /* JabbingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JabbingViewController.h; sourceTree = "<group>"; };
+		3C26401D8BD65132F37DBC78 /* VisualModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualModel.m; sourceTree = "<group>"; };
+		3D484CFF92A5F64F0D272C02 /* WillOriginDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WillOriginDataManager.h; sourceTree = "<group>"; };
+		40A04ADB806D2F0ED06D216B /* KeyGuideLastDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyGuideLastDataManager.h; sourceTree = "<group>"; };
+		40CB42658064DD39BB5D2DBC /* SumNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumNetModel.h; sourceTree = "<group>"; };
+		41DE467CA8E4555A4481C950 /* LevelNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelNetModel.m; sourceTree = "<group>"; };
+		42504F9C9AEFBD94D29FCDB3 /* DistanceNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceNetManager.m; sourceTree = "<group>"; };
+		425C4BAA97EC9092A8E7F6FE /* DistanceNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistanceNetModel.h; sourceTree = "<group>"; };
+		42FB485DB51B900420421D15 /* ScaleVisualNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleVisualNetModel.m; sourceTree = "<group>"; };
+		437742FF8F7472BE3B716128 /* PictureNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureNetManager.m; sourceTree = "<group>"; };
+		448448B5B91C82970ACD41A2 /* ScaleVisualModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleVisualModel.m; sourceTree = "<group>"; };
+		44F44F8F942619393FA1E62A /* WillOriginDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WillOriginDataManager.m; sourceTree = "<group>"; };
+		467346038860E2B82AC6AF55 /* DistanceDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistanceDataManager.h; sourceTree = "<group>"; };
+		469F4904830CBB9FC6B59E3B /* AircraftModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AircraftModel.m; sourceTree = "<group>"; };
+		4720423A98DD374FC8850615 /* VisualSystemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualSystemModel.m; sourceTree = "<group>"; };
+		4810470898FE89DB1706BC3B /* AcrossDataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcrossDataBase.m; sourceTree = "<group>"; };
+		48A0461B9060CA48D441B8E9 /* PictureView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureView.xib; sourceTree = "<group>"; };
+		48EC46C28D0BEC944B07F094 /* OfTinView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfTinView.h; sourceTree = "<group>"; };
+		4AD54479A7E01E847C8FCD83 /* LevelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelView.h; sourceTree = "<group>"; };
+		4BDE4604B2B8A27B6776F01B /* AddTogetherModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTogetherModel.m; sourceTree = "<group>"; };
+		4C3545E4B276D1B612C6A22D /* DarkErrorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkErrorView.m; sourceTree = "<group>"; };
+		4C624756B2E6344F227B1A98 /* SpectrumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpectrumModel.h; sourceTree = "<group>"; };
+		4C67423794F35CFF6121DB5C /* AddTogetherNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTogetherNetModel.h; sourceTree = "<group>"; };
+		4CE24CA594BE2CD0454E2414 /* VisualSystemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualSystemView.m; sourceTree = "<group>"; };
+		4E2847B4BA9098ABDF971C4D /* ItemLightDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemLightDataModel.m; sourceTree = "<group>"; };
+		4EC149A5B592E1A7E3621AEA /* OfTinController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfTinController.h; sourceTree = "<group>"; };
+		4F1242D58E76C83592E85327 /* ItemLightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemLightView.m; sourceTree = "<group>"; };
+		4FC94A249A0825B01E9BE616 /* DarkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkModel.h; sourceTree = "<group>"; };
+		5145429B99384EA8D625EC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		514A46CDB2467E7998762441 /* CenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterView.h; sourceTree = "<group>"; };
+		51C34FDDBC3ACCE02FF18776 /* DescriptionScaleNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptionScaleNetModel.h; sourceTree = "<group>"; };
+		52884B93BA69C71966C04F63 /* VisualModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualModel.h; sourceTree = "<group>"; };
+		558E4B5EB4D29B478563B534 /* VisualNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualNetManager.h; sourceTree = "<group>"; };
+		55924222BD37926DF769F50E /* DistanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceController.m; sourceTree = "<group>"; };
+		56D843E1AD40A865C7C36907 /* DistanceDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistanceDataModel.h; sourceTree = "<group>"; };
+		56F447BCBC9A45B6541C9090 /* VisualController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualController.h; sourceTree = "<group>"; };
+		57D541CBBD4D154AC92F8BC7 /* DescriptionScaleDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptionScaleDataManager.h; sourceTree = "<group>"; };
+		58AE42DB9FEAF31B84114BE1 /* SourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceViewController.m; sourceTree = "<group>"; };
+		5962495BA3A89DF49530C380 /* AircraftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AircraftView.m; sourceTree = "<group>"; };
+		5A294BC8ADC2191667B56950 /* DarkDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkDataModel.h; sourceTree = "<group>"; };
+		5AFE4134BC9BD1F348EA2329 /* DarkErrorDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkErrorDataModel.h; sourceTree = "<group>"; };
+		5BEB41789562DE83F90C1C21 /* OfTinView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfTinView.xib; sourceTree = "<group>"; };
+		5C1E47A2ABD8387D7BC4425C /* SumView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SumView.xib; sourceTree = "<group>"; };
+		5CAE4B659842D0A76B44B529 /* ItemLightNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemLightNetModel.m; sourceTree = "<group>"; };
+		5E7C42D9980A0DC198A493B3 /* PictureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureController.m; sourceTree = "<group>"; };
+		5EC2441CB6C4F9C33B9DD91E /* AcrossDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcrossDataTool.h; sourceTree = "<group>"; };
+		5F594F7C93B914ACF68450C3 /* VisualSystemNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualSystemNetManager.m; sourceTree = "<group>"; };
+		5F7F412296C3F7EBCD834A47 /* ItemLightDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemLightDataManager.h; sourceTree = "<group>"; };
+		5FC0498EAED796196D5B8CA3 /* VisualSystemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualSystemView.h; sourceTree = "<group>"; };
+		601E48369B3FAA86C003F84E /* AircraftDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AircraftDataModel.h; sourceTree = "<group>"; };
+		60F34AF3804A226D38770058 /* AcrossTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcrossTool.h; sourceTree = "<group>"; };
+		618546FABA57226CA398BE61 /* AircraftNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AircraftNetManager.h; sourceTree = "<group>"; };
+		635B4F7696FC31295003CA15 /* SumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumModel.m; sourceTree = "<group>"; };
+		64FC4BB1A2E1D62635FA8168 /* WillOriginDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WillOriginDataModel.h; sourceTree = "<group>"; };
+		653F4D0FB7EAB021E91C3A11 /* Pods_zdfti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zdfti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656D4B02852C16F0C78BADA5 /* VisualSystemDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualSystemDataManager.h; sourceTree = "<group>"; };
+		670542FA908B282503043CEA /* PictureNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureNetManager.h; sourceTree = "<group>"; };
+		67884CFE89B7AB963D5F7291 /* ScaleVisualDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleVisualDataModel.h; sourceTree = "<group>"; };
+		68A8464CBE0B30D8D7CACE46 /* MentalPictureModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalPictureModel.m; sourceTree = "<group>"; };
+		68DB48C3BC7BA1C5450C9C87 /* DistanceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistanceView.h; sourceTree = "<group>"; };
+		68E8428391D8E607F6898553 /* ResolveDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResolveDataModel.h; sourceTree = "<group>"; };
+		6931462AA68334D55E83A167 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69814A339A1FD360A8D89909 /* ResolveDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResolveDataModel.m; sourceTree = "<group>"; };
+		69B24925831C6C700B86ED32 /* SyrinxOrbForefrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyrinxOrbForefrontViewController.m; sourceTree = "<group>"; };
+		6A374ACFBF142D67F588CCE3 /* DescriptionScaleNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescriptionScaleNetManager.m; sourceTree = "<group>"; };
+		6B7541A78BF5EF8A7C2D1390 /* NumberView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberView.h; sourceTree = "<group>"; };
+		6B774EFA87EC726C6B83F9D5 /* DarkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkModel.m; sourceTree = "<group>"; };
+		6D3341D8A771C1E65ACD4032 /* ResolveNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResolveNetManager.h; sourceTree = "<group>"; };
+		6D4E4C88A95BFC8F931D0120 /* VisualSystemDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualSystemDataModel.m; sourceTree = "<group>"; };
+		6D584443A27C61EE1FFA1EFE /* ItemLightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemLightView.h; sourceTree = "<group>"; };
+		6E1249788195A2DCAD5B3FEF /* NumberView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberView.m; sourceTree = "<group>"; };
+		6E464E11AD27055DC9231553 /* DescriptionScaleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescriptionScaleView.m; sourceTree = "<group>"; };
+		6E8D41A68F373ADA7A0C3CBF /* KeyGuideLastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyGuideLastView.h; sourceTree = "<group>"; };
+		701C4AAD9F1802E3E18DB7F0 /* SourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceViewController.h; sourceTree = "<group>"; };
+		71EE4DB7A9EF1ED5244FBB26 /* NumberDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberDataManager.h; sourceTree = "<group>"; };
+		73084B73AB73A0B93E034D2B /* VisualNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualNetModel.m; sourceTree = "<group>"; };
+		73BD4605A3E6D3447D78EA98 /* AcrossTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcrossTool.m; sourceTree = "<group>"; };
+		742E41C692C58875E9ACA301 /* OfTinDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfTinDataModel.h; sourceTree = "<group>"; };
+		753F44098CC1B4E516B156DE /* AddTogetherNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTogetherNetModel.m; sourceTree = "<group>"; };
+		755742DB887946B4ABECA345 /* MotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionViewController.h; sourceTree = "<group>"; };
+		76AF4906B6CE57879E17E1D1 /* MentalPictureDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalPictureDataModel.m; sourceTree = "<group>"; };
+		772B43E591FE01F5E727283F /* ScaleVisualDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleVisualDataManager.m; sourceTree = "<group>"; };
+		773C48C9ACD78F41A1A70843 /* DescriptionScaleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptionScaleModel.h; sourceTree = "<group>"; };
+		78F94B66B3F88F35277CC79B /* DarkView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkView.xib; sourceTree = "<group>"; };
+		7A384950BFF6494F5CC9099A /* DescriptionScaleNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptionScaleNetManager.h; sourceTree = "<group>"; };
+		7B3F4D49BA32E44A5BA7D88F /* MentalPictureNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalPictureNetManager.h; sourceTree = "<group>"; };
+		7BDC44838F3FBA665FA75D6D /* SpectrumDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectrumDataModel.m; sourceTree = "<group>"; };
+		7DCF4B96AC9AA6363F7924E1 /* NumberController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberController.h; sourceTree = "<group>"; };
+		7E37480A80365F6BEC9BC8CB /* WillOriginNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WillOriginNetManager.m; sourceTree = "<group>"; };
+		7EA14A73A334E6861337EF28 /* VisualDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualDataModel.h; sourceTree = "<group>"; };
+		7EEA43219C620FF071A06303 /* WillOriginNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WillOriginNetManager.h; sourceTree = "<group>"; };
+		7FEB41728BC433A55A03B394 /* ItemLightNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemLightNetManager.m; sourceTree = "<group>"; };
+		818A4DBCB311D1604DF79149 /* WillOriginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WillOriginModel.m; sourceTree = "<group>"; };
+		81AD463F8A4059313DE2BED1 /* DarkNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkNetModel.h; sourceTree = "<group>"; };
+		84AB486E92895D00BA28AA0D /* NumberModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberModel.m; sourceTree = "<group>"; };
+		88494EADAFF1B18B0753FF1B /* ScaleVisualNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleVisualNetModel.h; sourceTree = "<group>"; };
+		88584DCC8C02D171A54A8477 /* AircraftNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AircraftNetManager.m; sourceTree = "<group>"; };
+		897E4562BFC35F31C39E4E7F /* DescriptionScaleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescriptionScaleController.m; sourceTree = "<group>"; };
+		89C1412C9EEFB1AD75BD14CB /* KeyGuideLastController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyGuideLastController.h; sourceTree = "<group>"; };
+		89FF4259898144EC56990FBB /* WillOriginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WillOriginView.m; sourceTree = "<group>"; };
+		8A6645919150AAA3E080D5F3 /* DarkDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkDataModel.m; sourceTree = "<group>"; };
+		8A6945BCA158CB3888FC04E4 /* ItemLightDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemLightDataModel.h; sourceTree = "<group>"; };
+		8AC843E89234B64CD5CB3520 /* KeyGuideLastNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyGuideLastNetManager.m; sourceTree = "<group>"; };
+		8C3B4C2D850AAC5CB660696E /* AcrossDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcrossDataBase.h; sourceTree = "<group>"; };
+		8CC947929C4D65D56ED5D5D6 /* SumDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumDataManager.m; sourceTree = "<group>"; };
+		8CDA4522A2EF9DC004341605 /* LevelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelModel.h; sourceTree = "<group>"; };
+		8D2A48B5AEDD139017156109 /* zdfti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zdfti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EED490188079DCD330FBF92 /* ScaleVisualController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleVisualController.h; sourceTree = "<group>"; };
+		90064991A05206DCF16DBBA9 /* DarkNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkNetManager.h; sourceTree = "<group>"; };
+		913244118C509DCC87E3DEFC /* OfTinDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfTinDataManager.h; sourceTree = "<group>"; };
+		920E4CE3AB5036DE3D1A7CE7 /* LevelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelModel.m; sourceTree = "<group>"; };
+		93DA45D28770857F58F6BB70 /* AircraftController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AircraftController.h; sourceTree = "<group>"; };
+		94264235AC8D9C0022DB12D0 /* MentalPictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalPictureView.m; sourceTree = "<group>"; };
+		94424E4BA2AA8DB0E2DE2E8C /* SpectrumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectrumView.m; sourceTree = "<group>"; };
+		960443F491C58F19F7B6248A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		961147CE932BC71CCA4505D3 /* VisualSystemController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualSystemController.m; sourceTree = "<group>"; };
+		965B4626849FD43171F8199A /* VisualView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisualView.xib; sourceTree = "<group>"; };
+		96674C87B527836B29A232AF /* LevelDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelDataModel.h; sourceTree = "<group>"; };
+		97F74B298ED65FF766F69EBF /* VisualNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualNetModel.h; sourceTree = "<group>"; };
+		98194FF8BC754F40DFECFAD4 /* SpectrumNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectrumNetModel.m; sourceTree = "<group>"; };
+		9871470CA196E2322B14F8EB /* SpectrumNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectrumNetManager.m; sourceTree = "<group>"; };
+		991F4E0C9146603864E16B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A21470ABF8A414F421CD57F /* SpectrumController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectrumController.m; sourceTree = "<group>"; };
+		9B9F4FF4A755A63A22156395 /* LevelDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelDataManager.m; sourceTree = "<group>"; };
+		9BC445E689689C157F3F3A33 /* DistanceDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceDataModel.m; sourceTree = "<group>"; };
+		9CF7409AADA64F273DBDAE1F /* AcrossNetBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcrossNetBase.h; sourceTree = "<group>"; };
+		9D464FC0950B454DC973FD21 /* DescriptionScaleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptionScaleController.h; sourceTree = "<group>"; };
+		9EC44836B84D8C831599525D /* DistanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistanceController.h; sourceTree = "<group>"; };
+		9F2242C494718B4CAD431F83 /* ItemLightDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemLightDataManager.m; sourceTree = "<group>"; };
+		9F2B43C7808607A91F4899E0 /* ScaleVisualDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleVisualDataModel.m; sourceTree = "<group>"; };
+		A0904918971C9940438A116A /* SpectrumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpectrumView.h; sourceTree = "<group>"; };
+		A0C94B5E949B5C43920950DD /* MentalPictureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalPictureModel.h; sourceTree = "<group>"; };
+		A209495A8485E30CF65DA2DF /* ResolveDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResolveDataManager.h; sourceTree = "<group>"; };
+		A5704B8EB8B0C429C555995E /* VisualView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualView.m; sourceTree = "<group>"; };
+		A6E44DFE8F5EBC62DFA916CE /* KeyGuideLastDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyGuideLastDataModel.h; sourceTree = "<group>"; };
+		A75B448AB1CC1EDC97CA8F6A /* AircraftView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AircraftView.xib; sourceTree = "<group>"; };
+		A93949B3B4869D69FD03A529 /* DescriptionScaleDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptionScaleDataModel.h; sourceTree = "<group>"; };
+		A95A44DABDEAEBB3FFC36104 /* FrameNookAndCrannyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameNookAndCrannyViewController.m; sourceTree = "<group>"; };
+		A9F64FA6B474979B24A48703 /* LevelDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelDataModel.m; sourceTree = "<group>"; };
+		AA3841DFB1B1CD3E5A2EEF24 /* DescriptionScaleDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescriptionScaleDataManager.m; sourceTree = "<group>"; };
+		AA454866AD347B876B8F4171 /* ItemLightController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemLightController.h; sourceTree = "<group>"; };
+		AC644B7ABE6E802300057952 /* AddTogetherDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTogetherDataModel.h; sourceTree = "<group>"; };
+		ACC64593A65D2DC2B67BBD24 /* PictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureView.m; sourceTree = "<group>"; };
+		ACE94DA48AF21FD78F7A49E3 /* MentalPictureNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalPictureNetModel.h; sourceTree = "<group>"; };
+		AD324E9A885A132A64FB9FED /* ScaleVisualModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleVisualModel.h; sourceTree = "<group>"; };
+		ADF04A9FA3221C33A7E01A59 /* ItemLightNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemLightNetModel.h; sourceTree = "<group>"; };
+		AEA44182B04B39D460194CD5 /* ItemLightController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemLightController.m; sourceTree = "<group>"; };
+		AF114271BABBB3DFF340ED7B /* ItemLightModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemLightModel.m; sourceTree = "<group>"; };
+		AFE84F1299898C64400D2C0F /* AcrossDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcrossDataTool.m; sourceTree = "<group>"; };
+		AFF442ED816DCC46FF87C322 /* SumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumView.h; sourceTree = "<group>"; };
+		B06342CBBA1AB3504813F72B /* MentalPictureNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalPictureNetModel.m; sourceTree = "<group>"; };
+		B0ED44BDA9F6AD456D9F8E33 /* ResolveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResolveModel.h; sourceTree = "<group>"; };
+		B1684394A8C63DE064988B5C /* MentalPictureView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentalPictureView.xib; sourceTree = "<group>"; };
+		B21348178DB224E379916F87 /* FrameNookAndCrannyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameNookAndCrannyViewController.h; sourceTree = "<group>"; };
+		B28A4BFDA4CCE286163D26E8 /* WillOriginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WillOriginController.m; sourceTree = "<group>"; };
+		B39C4801B4704E508B3B0F4C /* OfTinNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfTinNetModel.m; sourceTree = "<group>"; };
+		B3D946CC85367A5FD43A1A8B /* WillOriginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WillOriginModel.h; sourceTree = "<group>"; };
+		B4A64EDA88E4C20F0227B356 /* AddTogetherDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTogetherDataManager.m; sourceTree = "<group>"; };
+		B5114A3EB222D16561587003 /* DarkErrorNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkErrorNetModel.h; sourceTree = "<group>"; };
+		B51F4D868BB08DF8CCDB9825 /* Pods-zdfti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zdfti.release.xcconfig"; path = "Target Support Files/Pods-zdfti/Pods-zdfti.release.xcconfig"; sourceTree = "<group>"; };
+		B54342E5AF780D64F4C3460B /* AcrossNetTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcrossNetTool.h; sourceTree = "<group>"; };
+		B6B1436495BC9B47FC408540 /* VisualController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualController.m; sourceTree = "<group>"; };
+		B75F439D889A7F11C3699F18 /* SumNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumNetManager.m; sourceTree = "<group>"; };
+		B786424B91F5A5D1781C90D8 /* DarkNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkNetModel.m; sourceTree = "<group>"; };
+		B7F1421D93D1D981F84D45EB /* SpectrumDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpectrumDataManager.h; sourceTree = "<group>"; };
+		B870424DB6AA91AB7A8C7978 /* DarkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkController.m; sourceTree = "<group>"; };
+		B95E44E7982EB07076FE2AEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA8E493FBB17EDF088BA06A9 /* DarkErrorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkErrorController.h; sourceTree = "<group>"; };
+		BAB0472EB5DD720BB125F49A /* LevelNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelNetManager.h; sourceTree = "<group>"; };
+		BAC34CB880F965868F079062 /* KeyGuideLastNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyGuideLastNetModel.h; sourceTree = "<group>"; };
+		BB804B7FB5000BC084822B92 /* DarkDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkDataManager.h; sourceTree = "<group>"; };
+		BCC148B0933CEC5A6EE8317C /* KeyGuideLastNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyGuideLastNetManager.h; sourceTree = "<group>"; };
+		BCCB4CE78BA14C7CD1B4BEC5 /* PictureNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureNetModel.h; sourceTree = "<group>"; };
+		BEAA455BA322C78F40BDE920 /* SumNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumNetManager.h; sourceTree = "<group>"; };
+		BF664B92BE3ED87D123715E9 /* DescriptionScaleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptionScaleView.h; sourceTree = "<group>"; };
+		C0044D9498BD8B9E0D91DD15 /* AddTogetherView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTogetherView.h; sourceTree = "<group>"; };
+		C0284D24ACEE2189E838B54C /* MotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionViewController.m; sourceTree = "<group>"; };
+		C03F494FB60B64DE7D6C407A /* AcrossNetTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcrossNetTool.m; sourceTree = "<group>"; };
+		C05A4E8DBB4929FD9E0B9BCD /* DarkErrorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkErrorModel.h; sourceTree = "<group>"; };
+		C0F440B798F5EDD13254BD21 /* MentalPictureDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalPictureDataManager.h; sourceTree = "<group>"; };
+		C1534E048BBC3DD0094702CF /* VerbalDescriptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerbalDescriptionViewController.m; sourceTree = "<group>"; };
+		C1BD4C10A5F4DAE10B2070C0 /* OfTinNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfTinNetManager.h; sourceTree = "<group>"; };
+		C43B42BCAB85DF06791830D2 /* SpectrumNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpectrumNetModel.h; sourceTree = "<group>"; };
+		C5224DB99202306F0D5D0B9C /* OfTinDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfTinDataManager.m; sourceTree = "<group>"; };
+		C5FA4244BA71AB1E6F4DF766 /* VisualDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualDataManager.h; sourceTree = "<group>"; };
+		C6064CC587FA4BA669A611A7 /* SpectrumNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpectrumNetManager.h; sourceTree = "<group>"; };
+		C75C4887B2604B6817D0D0F1 /* DarkErrorDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkErrorDataManager.h; sourceTree = "<group>"; };
+		CA2C451885BBFC49B5F73B73 /* DarkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkView.m; sourceTree = "<group>"; };
+		CA9243D88388A405DE865374 /* PictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureView.h; sourceTree = "<group>"; };
+		CAA44AF09901133ADB2E2878 /* SpectrumDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpectrumDataModel.h; sourceTree = "<group>"; };
+		CC7249B78BEDE417B721614C /* VisualSystemNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualSystemNetModel.h; sourceTree = "<group>"; };
+		CCF7416BA59B60175827DABF /* MentalPictureNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalPictureNetManager.m; sourceTree = "<group>"; };
+		CD0345BA892A4A5CB06546D8 /* DarkErrorNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkErrorNetModel.m; sourceTree = "<group>"; };
+		CDD843F8967043BF40FE08C3 /* NumberDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberDataModel.m; sourceTree = "<group>"; };
+		CDDA4DBC91BFCA853201597F /* DarkErrorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkErrorModel.m; sourceTree = "<group>"; };
+		D2714ED395FBD772F83F0D37 /* NumberNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberNetManager.m; sourceTree = "<group>"; };
+		D313480E9182059C80325CA5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D36743C2939CAE0872118A5B /* LevelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelController.m; sourceTree = "<group>"; };
+		D3DD4782910C4B2C2FC0EF66 /* AddTogetherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTogetherModel.h; sourceTree = "<group>"; };
+		D5AF41D1AACBF4BE3C5447F8 /* OfTinModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfTinModel.m; sourceTree = "<group>"; };
+		D619432297491F3BA2CC68B4 /* DescriptionScaleNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescriptionScaleNetModel.m; sourceTree = "<group>"; };
+		D64C4ED9AF6BFC3A823CB829 /* AddTogetherView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTogetherView.xib; sourceTree = "<group>"; };
+		D6AD4CE4A5FAC9ECAE90D962 /* NumberModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberModel.h; sourceTree = "<group>"; };
+		D71041C8A2CE961F607E0B62 /* DarkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkController.h; sourceTree = "<group>"; };
+		D75E413BA76FA2F3D1EA1D9E /* SpectrumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectrumModel.m; sourceTree = "<group>"; };
+		D8014612A98901DEDE683CFF /* VisualSystemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualSystemModel.h; sourceTree = "<group>"; };
+		DEBD484D9C3A3A9064994A59 /* DistanceNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceNetModel.m; sourceTree = "<group>"; };
+		E1324CA49D87540656FF2A6C /* DistanceDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceDataManager.m; sourceTree = "<group>"; };
+		E2E345BEA5070585F7C6584C /* OfTinController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfTinController.m; sourceTree = "<group>"; };
+		E3424DBABC84CDD2DC3FE5F5 /* AircraftModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AircraftModel.h; sourceTree = "<group>"; };
+		E34D4D6BA5661C82839CE3AE /* ResolveModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResolveModel.m; sourceTree = "<group>"; };
+		E3964878B06AB4E2BA00C3A0 /* AddTogetherNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTogetherNetManager.m; sourceTree = "<group>"; };
+		E45844BF920F1169CB289164 /* ResolveNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResolveNetModel.h; sourceTree = "<group>"; };
+		E572462397A93C88FFEA6844 /* SumDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumDataModel.m; sourceTree = "<group>"; };
+		E6014490A9BA7CE2165528A2 /* ScaleVisualView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleVisualView.m; sourceTree = "<group>"; };
+		E6BA425195504BB32B40005B /* PictureDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureDataModel.m; sourceTree = "<group>"; };
+		E6C5429286B48852487DCCE4 /* VisualSystemDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualSystemDataManager.m; sourceTree = "<group>"; };
+		E6E743E88B8EE264FBB4885A /* WillOriginNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WillOriginNetModel.m; sourceTree = "<group>"; };
+		E81D4B92B65D7B6FDF546F01 /* PictureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureModel.h; sourceTree = "<group>"; };
+		E86F47BF95A180FEBF7AF61E /* DarkErrorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkErrorView.h; sourceTree = "<group>"; };
+		EA0C42C08BCE4D4C5998E390 /* VisualSystemDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualSystemDataModel.h; sourceTree = "<group>"; };
+		EA4F4DEC9DEFA81EA5A07AA8 /* HideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideViewController.m; sourceTree = "<group>"; };
+		EA6547CDA771E24DD67097FE /* ScaleVisualNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleVisualNetManager.m; sourceTree = "<group>"; };
+		EB2A46EEBD80491884D39AFD /* VisualView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualView.h; sourceTree = "<group>"; };
+		EBA34CC6A3CCECCF5350E18D /* HideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HideViewController.h; sourceTree = "<group>"; };
+		ED024F6CA18AB96946502E5B /* PictureDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureDataManager.h; sourceTree = "<group>"; };
+		ED2C4D8BAD7573896152D45B /* AircraftNetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AircraftNetModel.h; sourceTree = "<group>"; };
+		EDA54C939B20AB8CD4019ECF /* DarkErrorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkErrorController.m; sourceTree = "<group>"; };
+		EE024321933A1F8A67C779AC /* SyrinxOrbForefrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyrinxOrbForefrontViewController.h; sourceTree = "<group>"; };
+		EEDD443BACF3745FFDDF2542 /* ScaleVisualView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScaleVisualView.xib; sourceTree = "<group>"; };
+		EEF249548CF22DFE38019C1F /* SumDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumDataModel.h; sourceTree = "<group>"; };
+		EF004182919B8D883CF64B73 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		EF044E2A806A4EBA430A3060 /* ScaleVisualController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleVisualController.m; sourceTree = "<group>"; };
+		EF27434B832BD0E19407BC05 /* AddTogetherController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTogetherController.m; sourceTree = "<group>"; };
+		EFB2412288AA8914662DC15E /* MentalPictureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalPictureController.m; sourceTree = "<group>"; };
+		EFD74BFEB494C89D6FF91BEE /* AircraftDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AircraftDataModel.m; sourceTree = "<group>"; };
+		EFDD4B4FB8863A6BF4715294 /* PictureModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureModel.m; sourceTree = "<group>"; };
+		F000494BBB57C1B616AE868E /* KeyGuideLastNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyGuideLastNetModel.m; sourceTree = "<group>"; };
+		F04448E1AA573A667F1EE4BA /* SpectrumDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectrumDataManager.m; sourceTree = "<group>"; };
+		F1504EECBD2FF8A48CF5510E /* CenterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CenterView.xib; sourceTree = "<group>"; };
+		F2B04527B6CDBAAC9060579D /* VisualSystemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisualSystemView.xib; sourceTree = "<group>"; };
+		F2CA4B0899674E821F681E23 /* DarkNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkNetManager.m; sourceTree = "<group>"; };
+		F498446BBD883B157CDEDC8C /* MotionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MotionViewController.xib; sourceTree = "<group>"; };
+		F4D747289093646269F79CA4 /* DarkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkView.h; sourceTree = "<group>"; };
+		F5714E8B95099A23E44F7A7F /* ResolveNetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResolveNetModel.m; sourceTree = "<group>"; };
+		F92540A0821FCA9300CB63EF /* Pods-zdfti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zdfti.debug.xcconfig"; path = "Target Support Files/Pods-zdfti/Pods-zdfti.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB840A19E75206ACFA7A24D /* VisualSystemController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualSystemController.h; sourceTree = "<group>"; };
+		FACF458AAFA953B3E7E7148E /* OfTinNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfTinNetManager.m; sourceTree = "<group>"; };
+		FB574CA8BCCE1F02107CF956 /* VerbalDescriptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerbalDescriptionViewController.h; sourceTree = "<group>"; };
+		FB63409A8AAD234180CD4044 /* AircraftController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AircraftController.m; sourceTree = "<group>"; };
+		FCBF4B5080A06CA429A89A81 /* ScaleVisualView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleVisualView.h; sourceTree = "<group>"; };
+		FCED40BAAE08CC99231FC96D /* WillOriginDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WillOriginDataModel.m; sourceTree = "<group>"; };
+		FD3140F48ED03A30EF089E25 /* MentalPictureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalPictureController.h; sourceTree = "<group>"; };
+		FDF04DCEBF8635BBC0B000AA /* SumController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumController.m; sourceTree = "<group>"; };
+		FE02419588824A912B27138C /* AddTogetherView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTogetherView.m; sourceTree = "<group>"; };
+		FE7F4409BA646FF6A00C667F /* KeyGuideLastController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyGuideLastController.m; sourceTree = "<group>"; };
+		FEC643F8A54B638C01F20FE0 /* SumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumView.m; sourceTree = "<group>"; };
+		FF104E12843CA41B97EBE8C7 /* JabbingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JabbingViewController.m; sourceTree = "<group>"; };
+		FF564F18BFCD90E37ECD53B8 /* ResolveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResolveView.h; sourceTree = "<group>"; };
+		FFF5438CA91FBB520239601C /* VisualDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualDataModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BAE419EAFA5FDF707714EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EA4EFA977DE139ABE1DBB3 /* Pods_zdfti.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C14B9691064CFEBEEE4985 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				8C3B4C2D850AAC5CB660696E /* AcrossDataBase.h */,
+				4810470898FE89DB1706BC3B /* AcrossDataBase.m */,
+				5EC2441CB6C4F9C33B9DD91E /* AcrossDataTool.h */,
+				AFE84F1299898C64400D2C0F /* AcrossDataTool.m */,
+				68E8428391D8E607F6898553 /* ResolveDataModel.h */,
+				69814A339A1FD360A8D89909 /* ResolveDataModel.m */,
+				A209495A8485E30CF65DA2DF /* ResolveDataManager.h */,
+				13294ED39B8BE7D7420CD744 /* ResolveDataManager.m */,
+				EEF249548CF22DFE38019C1F /* SumDataModel.h */,
+				E572462397A93C88FFEA6844 /* SumDataModel.m */,
+				21D7479CAEA87DDA17DD3222 /* SumDataManager.h */,
+				8CC947929C4D65D56ED5D5D6 /* SumDataManager.m */,
+				601E48369B3FAA86C003F84E /* AircraftDataModel.h */,
+				EFD74BFEB494C89D6FF91BEE /* AircraftDataModel.m */,
+				224D4AEAB8453FB2B9484419 /* AircraftDataManager.h */,
+				10504E22BFFB32F11BC97310 /* AircraftDataManager.m */,
+				AC644B7ABE6E802300057952 /* AddTogetherDataModel.h */,
+				18EE4D419A9E3065DA122178 /* AddTogetherDataModel.m */,
+				1CAB4F95A3C2EC3FF48E157D /* AddTogetherDataManager.h */,
+				B4A64EDA88E4C20F0227B356 /* AddTogetherDataManager.m */,
+				5A294BC8ADC2191667B56950 /* DarkDataModel.h */,
+				8A6645919150AAA3E080D5F3 /* DarkDataModel.m */,
+				BB804B7FB5000BC084822B92 /* DarkDataManager.h */,
+				2550485B81AEF0B1F120C801 /* DarkDataManager.m */,
+				56D843E1AD40A865C7C36907 /* DistanceDataModel.h */,
+				9BC445E689689C157F3F3A33 /* DistanceDataModel.m */,
+				467346038860E2B82AC6AF55 /* DistanceDataManager.h */,
+				E1324CA49D87540656FF2A6C /* DistanceDataManager.m */,
+				742E41C692C58875E9ACA301 /* OfTinDataModel.h */,
+				191B44079F70A91D7BFE2546 /* OfTinDataModel.m */,
+				913244118C509DCC87E3DEFC /* OfTinDataManager.h */,
+				C5224DB99202306F0D5D0B9C /* OfTinDataManager.m */,
+				36744004A34726A741CC36CB /* PictureDataModel.h */,
+				E6BA425195504BB32B40005B /* PictureDataModel.m */,
+				ED024F6CA18AB96946502E5B /* PictureDataManager.h */,
+				23014F9FB5C807A99F193560 /* PictureDataManager.m */,
+				7EA14A73A334E6861337EF28 /* VisualDataModel.h */,
+				FFF5438CA91FBB520239601C /* VisualDataModel.m */,
+				C5FA4244BA71AB1E6F4DF766 /* VisualDataManager.h */,
+				25CF4B49AC262B0FE4D0E6DC /* VisualDataManager.m */,
+				64FC4BB1A2E1D62635FA8168 /* WillOriginDataModel.h */,
+				FCED40BAAE08CC99231FC96D /* WillOriginDataModel.m */,
+				3D484CFF92A5F64F0D272C02 /* WillOriginDataManager.h */,
+				44F44F8F942619393FA1E62A /* WillOriginDataManager.m */,
+				A6E44DFE8F5EBC62DFA916CE /* KeyGuideLastDataModel.h */,
+				15554FE997541811E4A576EA /* KeyGuideLastDataModel.m */,
+				40A04ADB806D2F0ED06D216B /* KeyGuideLastDataManager.h */,
+				193A43809D11C4EE1771160A /* KeyGuideLastDataManager.m */,
+				8A6945BCA158CB3888FC04E4 /* ItemLightDataModel.h */,
+				4E2847B4BA9098ABDF971C4D /* ItemLightDataModel.m */,
+				5F7F412296C3F7EBCD834A47 /* ItemLightDataManager.h */,
+				9F2242C494718B4CAD431F83 /* ItemLightDataManager.m */,
+				CAA44AF09901133ADB2E2878 /* SpectrumDataModel.h */,
+				7BDC44838F3FBA665FA75D6D /* SpectrumDataModel.m */,
+				B7F1421D93D1D981F84D45EB /* SpectrumDataManager.h */,
+				F04448E1AA573A667F1EE4BA /* SpectrumDataManager.m */,
+				0A32443CB07FF482CC546446 /* MentalPictureDataModel.h */,
+				76AF4906B6CE57879E17E1D1 /* MentalPictureDataModel.m */,
+				C0F440B798F5EDD13254BD21 /* MentalPictureDataManager.h */,
+				3500464ABBCEE173ADB0CB47 /* MentalPictureDataManager.m */,
+				A93949B3B4869D69FD03A529 /* DescriptionScaleDataModel.h */,
+				3BB64DD190F0B2659257D713 /* DescriptionScaleDataModel.m */,
+				57D541CBBD4D154AC92F8BC7 /* DescriptionScaleDataManager.h */,
+				AA3841DFB1B1CD3E5A2EEF24 /* DescriptionScaleDataManager.m */,
+				5AFE4134BC9BD1F348EA2329 /* DarkErrorDataModel.h */,
+				1B754B4A94955856F9FA8130 /* DarkErrorDataModel.m */,
+				C75C4887B2604B6817D0D0F1 /* DarkErrorDataManager.h */,
+				23F0459895689325BEEB798D /* DarkErrorDataManager.m */,
+				293F4C88B57F5B1C7FDD16BE /* NumberDataModel.h */,
+				CDD843F8967043BF40FE08C3 /* NumberDataModel.m */,
+				71EE4DB7A9EF1ED5244FBB26 /* NumberDataManager.h */,
+				1B25403784B3B180DC4F97EE /* NumberDataManager.m */,
+				67884CFE89B7AB963D5F7291 /* ScaleVisualDataModel.h */,
+				9F2B43C7808607A91F4899E0 /* ScaleVisualDataModel.m */,
+				0D884CCE80C0F80AFFCD2E9B /* ScaleVisualDataManager.h */,
+				772B43E591FE01F5E727283F /* ScaleVisualDataManager.m */,
+				EA0C42C08BCE4D4C5998E390 /* VisualSystemDataModel.h */,
+				6D4E4C88A95BFC8F931D0120 /* VisualSystemDataModel.m */,
+				656D4B02852C16F0C78BADA5 /* VisualSystemDataManager.h */,
+				E6C5429286B48852487DCCE4 /* VisualSystemDataManager.m */,
+				96674C87B527836B29A232AF /* LevelDataModel.h */,
+				A9F64FA6B474979B24A48703 /* LevelDataModel.m */,
+				1F284A66861528F1E5FE92D4 /* LevelDataManager.h */,
+				9B9F4FF4A755A63A22156395 /* LevelDataManager.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		5FFE4578B02CDAF7FA3EB8AE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B0ED44BDA9F6AD456D9F8E33 /* ResolveModel.h */,
+				E34D4D6BA5661C82839CE3AE /* ResolveModel.m */,
+				30E945ED80E918D8ECA4C5E8 /* SumModel.h */,
+				635B4F7696FC31295003CA15 /* SumModel.m */,
+				E3424DBABC84CDD2DC3FE5F5 /* AircraftModel.h */,
+				469F4904830CBB9FC6B59E3B /* AircraftModel.m */,
+				D3DD4782910C4B2C2FC0EF66 /* AddTogetherModel.h */,
+				4BDE4604B2B8A27B6776F01B /* AddTogetherModel.m */,
+				4FC94A249A0825B01E9BE616 /* DarkModel.h */,
+				6B774EFA87EC726C6B83F9D5 /* DarkModel.m */,
+				277345A28E25D895FE0000D5 /* DistanceModel.h */,
+				01E045B18A8C4AEDF8523F6C /* DistanceModel.m */,
+				04714967B014CA30594F5D39 /* OfTinModel.h */,
+				D5AF41D1AACBF4BE3C5447F8 /* OfTinModel.m */,
+				E81D4B92B65D7B6FDF546F01 /* PictureModel.h */,
+				EFDD4B4FB8863A6BF4715294 /* PictureModel.m */,
+				52884B93BA69C71966C04F63 /* VisualModel.h */,
+				3C26401D8BD65132F37DBC78 /* VisualModel.m */,
+				B3D946CC85367A5FD43A1A8B /* WillOriginModel.h */,
+				818A4DBCB311D1604DF79149 /* WillOriginModel.m */,
+				097E4895884D86674A252A31 /* KeyGuideLastModel.h */,
+				386E495B991B59396DC7DB7B /* KeyGuideLastModel.m */,
+				03914A30BBA2816AB2713519 /* ItemLightModel.h */,
+				AF114271BABBB3DFF340ED7B /* ItemLightModel.m */,
+				4C624756B2E6344F227B1A98 /* SpectrumModel.h */,
+				D75E413BA76FA2F3D1EA1D9E /* SpectrumModel.m */,
+				A0C94B5E949B5C43920950DD /* MentalPictureModel.h */,
+				68A8464CBE0B30D8D7CACE46 /* MentalPictureModel.m */,
+				773C48C9ACD78F41A1A70843 /* DescriptionScaleModel.h */,
+				1C7B4F0493EAC6D1918FC4D7 /* DescriptionScaleModel.m */,
+				C05A4E8DBB4929FD9E0B9BCD /* DarkErrorModel.h */,
+				CDDA4DBC91BFCA853201597F /* DarkErrorModel.m */,
+				D6AD4CE4A5FAC9ECAE90D962 /* NumberModel.h */,
+				84AB486E92895D00BA28AA0D /* NumberModel.m */,
+				AD324E9A885A132A64FB9FED /* ScaleVisualModel.h */,
+				448448B5B91C82970ACD41A2 /* ScaleVisualModel.m */,
+				D8014612A98901DEDE683CFF /* VisualSystemModel.h */,
+				4720423A98DD374FC8850615 /* VisualSystemModel.m */,
+				8CDA4522A2EF9DC004341605 /* LevelModel.h */,
+				920E4CE3AB5036DE3D1A7CE7 /* LevelModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		62154D3380611AB9A9F787FC /* net */ = {
+			isa = PBXGroup;
+			children = (
+				9CF7409AADA64F273DBDAE1F /* AcrossNetBase.h */,
+				04824714B6475FAFECB9D367 /* AcrossNetBase.m */,
+				B54342E5AF780D64F4C3460B /* AcrossNetTool.h */,
+				C03F494FB60B64DE7D6C407A /* AcrossNetTool.m */,
+				E45844BF920F1169CB289164 /* ResolveNetModel.h */,
+				F5714E8B95099A23E44F7A7F /* ResolveNetModel.m */,
+				6D3341D8A771C1E65ACD4032 /* ResolveNetManager.h */,
+				37E4432DBFE4BA7092543408 /* ResolveNetManager.m */,
+				40CB42658064DD39BB5D2DBC /* SumNetModel.h */,
+				0C92493593ECEBBDDDF1C97B /* SumNetModel.m */,
+				BEAA455BA322C78F40BDE920 /* SumNetManager.h */,
+				B75F439D889A7F11C3699F18 /* SumNetManager.m */,
+				ED2C4D8BAD7573896152D45B /* AircraftNetModel.h */,
+				204C4C848BEA905CA531F0CE /* AircraftNetModel.m */,
+				618546FABA57226CA398BE61 /* AircraftNetManager.h */,
+				88584DCC8C02D171A54A8477 /* AircraftNetManager.m */,
+				4C67423794F35CFF6121DB5C /* AddTogetherNetModel.h */,
+				753F44098CC1B4E516B156DE /* AddTogetherNetModel.m */,
+				152C4DE880E6BFDAC420BAAD /* AddTogetherNetManager.h */,
+				E3964878B06AB4E2BA00C3A0 /* AddTogetherNetManager.m */,
+				81AD463F8A4059313DE2BED1 /* DarkNetModel.h */,
+				B786424B91F5A5D1781C90D8 /* DarkNetModel.m */,
+				90064991A05206DCF16DBBA9 /* DarkNetManager.h */,
+				F2CA4B0899674E821F681E23 /* DarkNetManager.m */,
+				425C4BAA97EC9092A8E7F6FE /* DistanceNetModel.h */,
+				DEBD484D9C3A3A9064994A59 /* DistanceNetModel.m */,
+				283448B3AC2CE2D0A8847CCB /* DistanceNetManager.h */,
+				42504F9C9AEFBD94D29FCDB3 /* DistanceNetManager.m */,
+				16364FB096A52999D575459A /* OfTinNetModel.h */,
+				B39C4801B4704E508B3B0F4C /* OfTinNetModel.m */,
+				C1BD4C10A5F4DAE10B2070C0 /* OfTinNetManager.h */,
+				FACF458AAFA953B3E7E7148E /* OfTinNetManager.m */,
+				BCCB4CE78BA14C7CD1B4BEC5 /* PictureNetModel.h */,
+				2F2941F2912C92014D8F33E4 /* PictureNetModel.m */,
+				670542FA908B282503043CEA /* PictureNetManager.h */,
+				437742FF8F7472BE3B716128 /* PictureNetManager.m */,
+				97F74B298ED65FF766F69EBF /* VisualNetModel.h */,
+				73084B73AB73A0B93E034D2B /* VisualNetModel.m */,
+				558E4B5EB4D29B478563B534 /* VisualNetManager.h */,
+				2D4B4ACBA82CA0EE89E045A7 /* VisualNetManager.m */,
+				12AE4049B8A6A4676793750C /* WillOriginNetModel.h */,
+				E6E743E88B8EE264FBB4885A /* WillOriginNetModel.m */,
+				7EEA43219C620FF071A06303 /* WillOriginNetManager.h */,
+				7E37480A80365F6BEC9BC8CB /* WillOriginNetManager.m */,
+				BAC34CB880F965868F079062 /* KeyGuideLastNetModel.h */,
+				F000494BBB57C1B616AE868E /* KeyGuideLastNetModel.m */,
+				BCC148B0933CEC5A6EE8317C /* KeyGuideLastNetManager.h */,
+				8AC843E89234B64CD5CB3520 /* KeyGuideLastNetManager.m */,
+				ADF04A9FA3221C33A7E01A59 /* ItemLightNetModel.h */,
+				5CAE4B659842D0A76B44B529 /* ItemLightNetModel.m */,
+				1CC54BB29BF1D57A0C493D38 /* ItemLightNetManager.h */,
+				7FEB41728BC433A55A03B394 /* ItemLightNetManager.m */,
+				C43B42BCAB85DF06791830D2 /* SpectrumNetModel.h */,
+				98194FF8BC754F40DFECFAD4 /* SpectrumNetModel.m */,
+				C6064CC587FA4BA669A611A7 /* SpectrumNetManager.h */,
+				9871470CA196E2322B14F8EB /* SpectrumNetManager.m */,
+				ACE94DA48AF21FD78F7A49E3 /* MentalPictureNetModel.h */,
+				B06342CBBA1AB3504813F72B /* MentalPictureNetModel.m */,
+				7B3F4D49BA32E44A5BA7D88F /* MentalPictureNetManager.h */,
+				CCF7416BA59B60175827DABF /* MentalPictureNetManager.m */,
+				51C34FDDBC3ACCE02FF18776 /* DescriptionScaleNetModel.h */,
+				D619432297491F3BA2CC68B4 /* DescriptionScaleNetModel.m */,
+				7A384950BFF6494F5CC9099A /* DescriptionScaleNetManager.h */,
+				6A374ACFBF142D67F588CCE3 /* DescriptionScaleNetManager.m */,
+				B5114A3EB222D16561587003 /* DarkErrorNetModel.h */,
+				CD0345BA892A4A5CB06546D8 /* DarkErrorNetModel.m */,
+				1FB74AEAB2E121EBB2A447B5 /* DarkErrorNetManager.h */,
+				2DA5444EB4DE8BE50C2FEA75 /* DarkErrorNetManager.m */,
+				0E4947208EF8A5F7765051D9 /* NumberNetModel.h */,
+				08D1492BB823F1671251E458 /* NumberNetModel.m */,
+				1B30493B89AB28EBBAC50E0B /* NumberNetManager.h */,
+				D2714ED395FBD772F83F0D37 /* NumberNetManager.m */,
+				88494EADAFF1B18B0753FF1B /* ScaleVisualNetModel.h */,
+				42FB485DB51B900420421D15 /* ScaleVisualNetModel.m */,
+				329A4EC3B6E238A8C42607FF /* ScaleVisualNetManager.h */,
+				EA6547CDA771E24DD67097FE /* ScaleVisualNetManager.m */,
+				CC7249B78BEDE417B721614C /* VisualSystemNetModel.h */,
+				345E458EA32D34C842D92343 /* VisualSystemNetModel.m */,
+				27C44D2395F2A9CB1BCB66C1 /* VisualSystemNetManager.h */,
+				5F594F7C93B914ACF68450C3 /* VisualSystemNetManager.m */,
+				288D4C63A3BE95E544524B10 /* LevelNetModel.h */,
+				41DE467CA8E4555A4481C950 /* LevelNetModel.m */,
+				BAB0472EB5DD720BB125F49A /* LevelNetManager.h */,
+				024E4C7B8A2A30D5A49E1E04 /* LevelNetManager.m */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		69094E40B1701638BD791668 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				10A746E8BF647E3C16CB2657 /* ResolveController.h */,
+				25EF49CAB083A302D59F6C6E /* ResolveController.m */,
+				017746F394B78F11AF9C8F27 /* SumController.h */,
+				FDF04DCEBF8635BBC0B000AA /* SumController.m */,
+				93DA45D28770857F58F6BB70 /* AircraftController.h */,
+				FB63409A8AAD234180CD4044 /* AircraftController.m */,
+				0825450DB00BC15E7002B5A4 /* AddTogetherController.h */,
+				EF27434B832BD0E19407BC05 /* AddTogetherController.m */,
+				D71041C8A2CE961F607E0B62 /* DarkController.h */,
+				B870424DB6AA91AB7A8C7978 /* DarkController.m */,
+				9EC44836B84D8C831599525D /* DistanceController.h */,
+				55924222BD37926DF769F50E /* DistanceController.m */,
+				4EC149A5B592E1A7E3621AEA /* OfTinController.h */,
+				E2E345BEA5070585F7C6584C /* OfTinController.m */,
+				0DF3414FA17A06EDC29556F1 /* PictureController.h */,
+				5E7C42D9980A0DC198A493B3 /* PictureController.m */,
+				56F447BCBC9A45B6541C9090 /* VisualController.h */,
+				B6B1436495BC9B47FC408540 /* VisualController.m */,
+				22134B5D81636B6B6DBDAAA6 /* WillOriginController.h */,
+				B28A4BFDA4CCE286163D26E8 /* WillOriginController.m */,
+				89C1412C9EEFB1AD75BD14CB /* KeyGuideLastController.h */,
+				FE7F4409BA646FF6A00C667F /* KeyGuideLastController.m */,
+				AA454866AD347B876B8F4171 /* ItemLightController.h */,
+				AEA44182B04B39D460194CD5 /* ItemLightController.m */,
+				06844BA89AB470E465A7513A /* SpectrumController.h */,
+				9A21470ABF8A414F421CD57F /* SpectrumController.m */,
+				FD3140F48ED03A30EF089E25 /* MentalPictureController.h */,
+				EFB2412288AA8914662DC15E /* MentalPictureController.m */,
+				9D464FC0950B454DC973FD21 /* DescriptionScaleController.h */,
+				897E4562BFC35F31C39E4E7F /* DescriptionScaleController.m */,
+				BA8E493FBB17EDF088BA06A9 /* DarkErrorController.h */,
+				EDA54C939B20AB8CD4019ECF /* DarkErrorController.m */,
+				7DCF4B96AC9AA6363F7924E1 /* NumberController.h */,
+				27184E77ADB4ABEEDE6D3A19 /* NumberController.m */,
+				8EED490188079DCD330FBF92 /* ScaleVisualController.h */,
+				EF044E2A806A4EBA430A3060 /* ScaleVisualController.m */,
+				FAB840A19E75206ACFA7A24D /* VisualSystemController.h */,
+				961147CE932BC71CCA4505D3 /* VisualSystemController.m */,
+				15D44E9EAA9A4285001AEA8C /* LevelController.h */,
+				D36743C2939CAE0872118A5B /* LevelController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		756A4541B80E062F47FF757B /* zdfti */ = {
+			isa = PBXGroup;
+			children = (
+				38454CDA8906339B4E4E534E /* AppDelegate.h */,
+				29D94A98963EB8B2B6096126 /* AppDelegate.m */,
+				B95E44E7982EB07076FE2AEC /* ViewController.h */,
+				101542259B2ACA926139951A /* ViewController.m */,
+				514A46CDB2467E7998762441 /* CenterView.h */,
+				15B74E8F91A4D15636B6CBFF /* CenterView.m */,
+				F1504EECBD2FF8A48CF5510E /* CenterView.xib */,
+				FB574CA8BCCE1F02107CF956 /* VerbalDescriptionViewController.h */,
+				C1534E048BBC3DD0094702CF /* VerbalDescriptionViewController.m */,
+				3BD74BE28CF011DDEC3E3190 /* JabbingViewController.h */,
+				FF104E12843CA41B97EBE8C7 /* JabbingViewController.m */,
+				EBA34CC6A3CCECCF5350E18D /* HideViewController.h */,
+				EA4F4DEC9DEFA81EA5A07AA8 /* HideViewController.m */,
+				701C4AAD9F1802E3E18DB7F0 /* SourceViewController.h */,
+				58AE42DB9FEAF31B84114BE1 /* SourceViewController.m */,
+				B21348178DB224E379916F87 /* FrameNookAndCrannyViewController.h */,
+				A95A44DABDEAEBB3FFC36104 /* FrameNookAndCrannyViewController.m */,
+				755742DB887946B4ABECA345 /* MotionViewController.h */,
+				C0284D24ACEE2189E838B54C /* MotionViewController.m */,
+				F498446BBD883B157CDEDC8C /* MotionViewController.xib */,
+				EE024321933A1F8A67C779AC /* SyrinxOrbForefrontViewController.h */,
+				69B24925831C6C700B86ED32 /* SyrinxOrbForefrontViewController.m */,
+				29C3499BA05C92419BD34B07 /* SyrinxOrbForefrontViewController.xib */,
+				670D4B5CABBABF81FD9B88C7 /* Main.storyboard */,
+				10034D509A72D19E86CFE6F3 /* Assets.xcassets */,
+				B1A542509C6EE2C6FE07065F /* LaunchScreen.storyboard */,
+				5145429B99384EA8D625EC2D /* Info.plist */,
+				6931462AA68334D55E83A167 /* main.m */,
+			);
+			path = zdfti;
+			sourceTree = "<group>";
+		};
+		7AF94CD7B87621A97D83D3DA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FF564F18BFCD90E37ECD53B8 /* ResolveView.h */,
+				226E42399A24710E595DC61E /* ResolveView.m */,
+				5C1E47A2ABD8387D7BC4425C /* SumView.xib */,
+				AFF442ED816DCC46FF87C322 /* SumView.h */,
+				FEC643F8A54B638C01F20FE0 /* SumView.m */,
+				A75B448AB1CC1EDC97CA8F6A /* AircraftView.xib */,
+				24454519B847F1F1EF38785B /* AircraftView.h */,
+				5962495BA3A89DF49530C380 /* AircraftView.m */,
+				D64C4ED9AF6BFC3A823CB829 /* AddTogetherView.xib */,
+				C0044D9498BD8B9E0D91DD15 /* AddTogetherView.h */,
+				FE02419588824A912B27138C /* AddTogetherView.m */,
+				78F94B66B3F88F35277CC79B /* DarkView.xib */,
+				F4D747289093646269F79CA4 /* DarkView.h */,
+				CA2C451885BBFC49B5F73B73 /* DarkView.m */,
+				68DB48C3BC7BA1C5450C9C87 /* DistanceView.h */,
+				15BF449FABC6A12B57AEF8F1 /* DistanceView.m */,
+				5BEB41789562DE83F90C1C21 /* OfTinView.xib */,
+				48EC46C28D0BEC944B07F094 /* OfTinView.h */,
+				02404E7EA35FB48CD6BB0ABF /* OfTinView.m */,
+				48A0461B9060CA48D441B8E9 /* PictureView.xib */,
+				CA9243D88388A405DE865374 /* PictureView.h */,
+				ACC64593A65D2DC2B67BBD24 /* PictureView.m */,
+				965B4626849FD43171F8199A /* VisualView.xib */,
+				EB2A46EEBD80491884D39AFD /* VisualView.h */,
+				A5704B8EB8B0C429C555995E /* VisualView.m */,
+				36314AC29C132C80A44C1E00 /* WillOriginView.h */,
+				89FF4259898144EC56990FBB /* WillOriginView.m */,
+				6E8D41A68F373ADA7A0C3CBF /* KeyGuideLastView.h */,
+				0C05418D9A38A74CECDFA06D /* KeyGuideLastView.m */,
+				6D584443A27C61EE1FFA1EFE /* ItemLightView.h */,
+				4F1242D58E76C83592E85327 /* ItemLightView.m */,
+				187C4CC8A0CB7CDDD51537DF /* SpectrumView.xib */,
+				A0904918971C9940438A116A /* SpectrumView.h */,
+				94424E4BA2AA8DB0E2DE2E8C /* SpectrumView.m */,
+				B1684394A8C63DE064988B5C /* MentalPictureView.xib */,
+				27C841849A54756D76674CCB /* MentalPictureView.h */,
+				94264235AC8D9C0022DB12D0 /* MentalPictureView.m */,
+				BF664B92BE3ED87D123715E9 /* DescriptionScaleView.h */,
+				6E464E11AD27055DC9231553 /* DescriptionScaleView.m */,
+				E86F47BF95A180FEBF7AF61E /* DarkErrorView.h */,
+				4C3545E4B276D1B612C6A22D /* DarkErrorView.m */,
+				6B7541A78BF5EF8A7C2D1390 /* NumberView.h */,
+				6E1249788195A2DCAD5B3FEF /* NumberView.m */,
+				EEDD443BACF3745FFDDF2542 /* ScaleVisualView.xib */,
+				FCBF4B5080A06CA429A89A81 /* ScaleVisualView.h */,
+				E6014490A9BA7CE2165528A2 /* ScaleVisualView.m */,
+				F2B04527B6CDBAAC9060579D /* VisualSystemView.xib */,
+				5FC0498EAED796196D5B8CA3 /* VisualSystemView.h */,
+				4CE24CA594BE2CD0454E2414 /* VisualSystemView.m */,
+				4AD54479A7E01E847C8FCD83 /* LevelView.h */,
+				2E504E94BFB4B031C8802414 /* LevelView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9D3942BBB4034F5775AB989A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				653F4D0FB7EAB021E91C3A11 /* Pods_zdfti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD314CD5B7082AD9290C19A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D2A48B5AEDD139017156109 /* zdfti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF045BC90F6446CFCE3EEE9 = {
+			isa = PBXGroup;
+			children = (
+				756A4541B80E062F47FF757B /* zdfti */,
+				AD314CD5B7082AD9290C19A7 /* Products */,
+				D5F0447F8900542CABC4E46F /* Pods */,
+				9D3942BBB4034F5775AB989A /* Frameworks */,
+				FFD6406AAC930BA0061DEDCD /* other_range_file */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F0447F8900542CABC4E46F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F92540A0821FCA9300CB63EF /* Pods-zdfti.debug.xcconfig */,
+				B51F4D868BB08DF8CCDB9825 /* Pods-zdfti.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F10749FD8AFDFE08C361B6CB /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				60F34AF3804A226D38770058 /* AcrossTool.h */,
+				73BD4605A3E6D3447D78EA98 /* AcrossTool.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		FFD6406AAC930BA0061DEDCD /* other_range_file */ = {
+			isa = PBXGroup;
+			children = (
+				F10749FD8AFDFE08C361B6CB /* tool */,
+				5FFE4578B02CDAF7FA3EB8AE /* model */,
+				7AF94CD7B87621A97D83D3DA /* view */,
+				69094E40B1701638BD791668 /* controller */,
+				62154D3380611AB9A9F787FC /* net */,
+				02C14B9691064CFEBEEE4985 /* data */,
+			);
+			path = other_range_file;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4545414F9B0E0DC67D2DE8FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F22410FACD3F895947BF1C8 /* AcrossTool.h in Headers */,
+				1E2C412EAEECF49AFB9EE2C3 /* ResolveModel.h in Headers */,
+				34E0432ABE8AA0693B261723 /* ResolveView.h in Headers */,
+				19BF4ABA9EA9F4EFBFD59578 /* ResolveController.h in Headers */,
+				617F4508A96732CBF8F206C9 /* AcrossNetBase.h in Headers */,
+				7D0D4596ACFDF702240A00C8 /* AcrossNetTool.h in Headers */,
+				A82B4424B0A03227D7C0776C /* ResolveNetModel.h in Headers */,
+				7AC94870B95926DB47FDEDB0 /* ResolveNetManager.h in Headers */,
+				4B5F4B0992C785BD3755FEB4 /* AcrossDataBase.h in Headers */,
+				349B49FDA179FEE29E45DFFA /* AcrossDataTool.h in Headers */,
+				2D684B14AC7E8EC8649B9977 /* ResolveDataModel.h in Headers */,
+				0D0B409F86D80854BF97D278 /* ResolveDataManager.h in Headers */,
+				080F4695B0CEDCA41EC4D090 /* SumModel.h in Headers */,
+				EAF84FF59D4FFC846A6E0076 /* SumView.h in Headers */,
+				C3614852A4952041AE451145 /* SumController.h in Headers */,
+				9A8349F2AB33814ECED7186C /* SumNetModel.h in Headers */,
+				7E8941B085EFC76DD65F4199 /* SumNetManager.h in Headers */,
+				D9184613B1690C1C4259B9C1 /* SumDataModel.h in Headers */,
+				9BA446D5A8B4A9D0742FFC1E /* SumDataManager.h in Headers */,
+				51E747AA92EEB8A0D8FA5215 /* AircraftModel.h in Headers */,
+				255B4B9296D69F42301D4791 /* AircraftView.h in Headers */,
+				85BE4F08AE2056A20B69D9A3 /* AircraftController.h in Headers */,
+				24434F71A1F6A2CEEC392D56 /* AircraftNetModel.h in Headers */,
+				98ED4803B13A7E66BADF8839 /* AircraftNetManager.h in Headers */,
+				471F4CF28C775877E81596C2 /* AircraftDataModel.h in Headers */,
+				D3B64154AE699D22F89C51B2 /* AircraftDataManager.h in Headers */,
+				61B74BB9B71542D7B849DFEB /* AddTogetherModel.h in Headers */,
+				6F4E4215BC444ACDA99DF094 /* AddTogetherView.h in Headers */,
+				B2A244E2B36AD21EA381ADE2 /* AddTogetherController.h in Headers */,
+				C5384A7DA519A84FF05B2B10 /* AddTogetherNetModel.h in Headers */,
+				E8BD4E90A9C372AC123599A3 /* AddTogetherNetManager.h in Headers */,
+				F15A4F90B46FB2DA78C18FAA /* AddTogetherDataModel.h in Headers */,
+				B8B14584A8D622630B6E17FB /* AddTogetherDataManager.h in Headers */,
+				EB2142599F18333C70082560 /* DarkModel.h in Headers */,
+				19624565B2945B7C2ADE1FCA /* DarkView.h in Headers */,
+				8D9042D3B2BC530BF2EDC7BC /* DarkController.h in Headers */,
+				37124464AC1E04EBABB01D1D /* DarkNetModel.h in Headers */,
+				E4D142C28DE43D9C1A37E9EC /* DarkNetManager.h in Headers */,
+				D0B84BF994C641EB66D9BE72 /* DarkDataModel.h in Headers */,
+				96DC4435A53DAAC266EE62E3 /* DarkDataManager.h in Headers */,
+				17B7419FA8C983F0EDA62006 /* DistanceModel.h in Headers */,
+				D6DD4E8A8A55C43F217CC1FB /* DistanceView.h in Headers */,
+				1C2F4A6EB421F47A6D986FBE /* DistanceController.h in Headers */,
+				32074CF1ACCF89F0D6E23EFA /* DistanceNetModel.h in Headers */,
+				CF3B4634B267B9ABA609C6AC /* DistanceNetManager.h in Headers */,
+				0DF9478DAE9A10810F7DB35E /* DistanceDataModel.h in Headers */,
+				8E2A4D289D9C54DB858071E0 /* DistanceDataManager.h in Headers */,
+				5BFA4B77B5023D024197C538 /* OfTinModel.h in Headers */,
+				346348828F4EFC7882EA16B0 /* OfTinView.h in Headers */,
+				99DE471196C04FF8B8D28EC3 /* OfTinController.h in Headers */,
+				9DB640C2B2F3BCCA16461D4B /* OfTinNetModel.h in Headers */,
+				B9774F5CB15BB5022C32660B /* OfTinNetManager.h in Headers */,
+				8418495EA0B258BDAECDB199 /* OfTinDataModel.h in Headers */,
+				787548F39A13CD9A74EFFE6A /* OfTinDataManager.h in Headers */,
+				DC1740D3854EE5E6855C05AD /* PictureModel.h in Headers */,
+				A71F4716ABD67CACDEC92E4D /* PictureView.h in Headers */,
+				E0AE449DAAD02F5A86A7B324 /* PictureController.h in Headers */,
+				DD724FEB9AEE3741DE98B655 /* PictureNetModel.h in Headers */,
+				89DE4A31AADEE9EA3512B359 /* PictureNetManager.h in Headers */,
+				C98747B584E592A58A72287F /* PictureDataModel.h in Headers */,
+				5E7A4291950A400F411F97D5 /* PictureDataManager.h in Headers */,
+				88A147D4AECB383E6BCFB87C /* VisualModel.h in Headers */,
+				BA9445F19619050B42C6102F /* VisualView.h in Headers */,
+				8F6B4F43AF3469EEBE29CC2C /* VisualController.h in Headers */,
+				517B4078A19CDA324697869D /* VisualNetModel.h in Headers */,
+				6BF74B07845D172AE5A1EC2C /* VisualNetManager.h in Headers */,
+				005443358CDC6F471E79EE65 /* VisualDataModel.h in Headers */,
+				11EA429AAF75E83CA023A8D3 /* VisualDataManager.h in Headers */,
+				8E34496BA6F63E52D6545AE3 /* WillOriginModel.h in Headers */,
+				877E46378733B52C1806BCCF /* WillOriginView.h in Headers */,
+				D330444196472608963F0024 /* WillOriginController.h in Headers */,
+				5E474D7BA6BE4D3A75961D0A /* WillOriginNetModel.h in Headers */,
+				7D74452D9072B1D25E52EEC0 /* WillOriginNetManager.h in Headers */,
+				E2EF450482CA9E12E67BC6CA /* WillOriginDataModel.h in Headers */,
+				241B4B13B6908F1BCFC0B915 /* WillOriginDataManager.h in Headers */,
+				1B9B4CA78B955FFCF7232429 /* KeyGuideLastModel.h in Headers */,
+				E47940B5AE8B99841C6715B5 /* KeyGuideLastView.h in Headers */,
+				EC994EBCBF3DE39EEE7DF219 /* KeyGuideLastController.h in Headers */,
+				709D43379E8F901054EAB7E2 /* KeyGuideLastNetModel.h in Headers */,
+				E06641EC9425769CA71600CF /* KeyGuideLastNetManager.h in Headers */,
+				81354BD49CEC302BCE7BB7FE /* KeyGuideLastDataModel.h in Headers */,
+				64904F92A2691888011B4048 /* KeyGuideLastDataManager.h in Headers */,
+				4179418296AD47E2FA548AFF /* ItemLightModel.h in Headers */,
+				6D01467298F319A5869302A1 /* ItemLightView.h in Headers */,
+				AC6346C0AA3A4B137B6B73AD /* ItemLightController.h in Headers */,
+				9DA04A2D9AC392E2CAA46A21 /* ItemLightNetModel.h in Headers */,
+				6F66491DBB3E2849B61BCECE /* ItemLightNetManager.h in Headers */,
+				A974486283BAD8CCC845946C /* ItemLightDataModel.h in Headers */,
+				224C4806B6C1005414A70151 /* ItemLightDataManager.h in Headers */,
+				37B14B2F8839E7730A5E056F /* SpectrumModel.h in Headers */,
+				90AB422FB80D6D2CA0CB5CF6 /* SpectrumView.h in Headers */,
+				CD09462E94EE40148576530A /* SpectrumController.h in Headers */,
+				A57A478487B105F2069D8A5D /* SpectrumNetModel.h in Headers */,
+				BC4C4D65AE6773DAA4031C38 /* SpectrumNetManager.h in Headers */,
+				C0D64A75A202DB2B734038DF /* SpectrumDataModel.h in Headers */,
+				9B234E44B45F3BF99106C0F2 /* SpectrumDataManager.h in Headers */,
+				67C945FABC3EC977DEDDC943 /* MentalPictureModel.h in Headers */,
+				556F44208818C09070E1F5B6 /* MentalPictureView.h in Headers */,
+				F7DF4A708866E19EB8CDE60F /* MentalPictureController.h in Headers */,
+				5725472584DD2719FB72BA6D /* MentalPictureNetModel.h in Headers */,
+				C24940468C664B9C48443FA0 /* MentalPictureNetManager.h in Headers */,
+				A4F84D80B48C85B92B10A68C /* MentalPictureDataModel.h in Headers */,
+				C8B9402EB4C7CD2295043F39 /* MentalPictureDataManager.h in Headers */,
+				DD5D4AE4BF889BE165DA1809 /* DescriptionScaleModel.h in Headers */,
+				17074205BE5AC7FDAD5A9DC8 /* DescriptionScaleView.h in Headers */,
+				1DCF420AA8BF375FF1AA6FF0 /* DescriptionScaleController.h in Headers */,
+				D7904C2DB2D26EE2816DBD8A /* DescriptionScaleNetModel.h in Headers */,
+				E5F64FF98EE8D20F91614B32 /* DescriptionScaleNetManager.h in Headers */,
+				876A4D55A9F166EAB62D5DD4 /* DescriptionScaleDataModel.h in Headers */,
+				5B3941A3AC0470B9FE064E27 /* DescriptionScaleDataManager.h in Headers */,
+				9AD84DE19286AF5F8E0EB361 /* DarkErrorModel.h in Headers */,
+				20904E06A8BD61FFF40C952C /* DarkErrorView.h in Headers */,
+				E2F9479888987C5238229E11 /* DarkErrorController.h in Headers */,
+				87CF4B218F561DE0A3D36164 /* DarkErrorNetModel.h in Headers */,
+				0CB1434882816D5F4BB23890 /* DarkErrorNetManager.h in Headers */,
+				D1F14FACBC05FC4A7D0D8E01 /* DarkErrorDataModel.h in Headers */,
+				A15C44779FA7BC80C4A623DE /* DarkErrorDataManager.h in Headers */,
+				0A3740519306D95C4DF0F33D /* NumberModel.h in Headers */,
+				7069403EA563918B856BBBBA /* NumberView.h in Headers */,
+				687C401F98381730066BD7EC /* NumberController.h in Headers */,
+				DA9C4E69866FE86EDA23B620 /* NumberNetModel.h in Headers */,
+				81774DFFB03CEBD110F560A0 /* NumberNetManager.h in Headers */,
+				C4F44D0386B4D8373D8F7845 /* NumberDataModel.h in Headers */,
+				EB404FCEB7D547EB1E7D3029 /* NumberDataManager.h in Headers */,
+				0B834517ACEE72081E202F84 /* ScaleVisualModel.h in Headers */,
+				B3674F09AD9A69ADE4BCB677 /* ScaleVisualView.h in Headers */,
+				4D7E4657B055656599A610B8 /* ScaleVisualController.h in Headers */,
+				49514201B4677FE7D5405E02 /* ScaleVisualNetModel.h in Headers */,
+				A91846B0BA87305A0E9896AA /* ScaleVisualNetManager.h in Headers */,
+				DB5D4855987F12B994268490 /* ScaleVisualDataModel.h in Headers */,
+				3C5047F19A9636B4FD3896B7 /* ScaleVisualDataManager.h in Headers */,
+				7DED49899237F98D226392CC /* VisualSystemModel.h in Headers */,
+				63C6498986E0CB8A3B3CBD0F /* VisualSystemView.h in Headers */,
+				FE9F41D2A957EEC8C5D98749 /* VisualSystemController.h in Headers */,
+				7CBA47DE95D4FE591D22E774 /* VisualSystemNetModel.h in Headers */,
+				F3C540DCB78B9439BC271EE4 /* VisualSystemNetManager.h in Headers */,
+				C0CE4E14AFA62F7469F2C5C3 /* VisualSystemDataModel.h in Headers */,
+				75A744439E44B358788A7031 /* VisualSystemDataManager.h in Headers */,
+				FA6F4271A75B389BFC3F057E /* LevelModel.h in Headers */,
+				216847858A164CE86CC972A5 /* LevelView.h in Headers */,
+				E0CE491897479B2CFA3A6074 /* LevelController.h in Headers */,
+				7E7447A3BFFF4B0C21663133 /* LevelNetModel.h in Headers */,
+				611648E2A5DF3F0D9BAF4E83 /* LevelNetManager.h in Headers */,
+				6F7144E189D8A5D4F3B84011 /* LevelDataModel.h in Headers */,
+				8B4949D3AAD34135DF72B093 /* LevelDataManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D3A4D5592672BE3C8D9636E /* zdfti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB784ADD95406F527CAF61CD /* Build configuration list for PBXNativeTarget "zdfti" */;
+			buildPhases = (
+				05814C62B420DD0BA3B2FA5B /* [CP] Check Pods Manifest.lock */,
+				2F764294B537C8010D1FB106 /* Sources */,
+				9BAE419EAFA5FDF707714EA0 /* Frameworks */,
+				F51E4C89A564AE57B5EE045B /* Resources */,
+				38B1474C8383078DEDF5A142 /* [CP] Embed Pods Frameworks */,
+				4545414F9B0E0DC67D2DE8FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zdfti;
+			productName = zdfti;
+			productReference = 8D2A48B5AEDD139017156109 /* zdfti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		148448C7A87E0ED7AD996CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7D3A4D5592672BE3C8D9636E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 7517402ABEF9D3173167256D /* Build configuration list for PBXProject "zdfti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = AEF045BC90F6446CFCE3EEE9;
+			productRefGroup = AD314CD5B7082AD9290C19A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D3A4D5592672BE3C8D9636E /* zdfti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F51E4C89A564AE57B5EE045B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA64F4F8EC630142ED1364A /* LaunchScreen.storyboard in Resources */,
+				C3B049ACBCCC8712D6EBC4BB /* CenterView.xib in Resources */,
+				68454FCFA3983841D3146E89 /* SyrinxOrbForefrontViewController.xib in Resources */,
+				30884677B575D88FA5A300F2 /* Assets.xcassets in Resources */,
+				2690462ABAA52C82ECB4700E /* MotionViewController.xib in Resources */,
+				E83D4BD49E03AA7AA81B80BC /* Main.storyboard in Resources */,
+				D206401F8D9AE6FC082D9FCF /* SumView.xib in Resources */,
+				81F942BB935C8EF2E5E2EC76 /* AircraftView.xib in Resources */,
+				A17548DD8AE662FDC6FAFF55 /* AddTogetherView.xib in Resources */,
+				3A65484496E8A0434B29D015 /* DarkView.xib in Resources */,
+				7E1E43CBB02F96F9C36AEC97 /* OfTinView.xib in Resources */,
+				FF0E45EFBC34F0E2EE8AB5CE /* PictureView.xib in Resources */,
+				9EE64FCBBF6FE088C78D46FE /* VisualView.xib in Resources */,
+				81E0456D95A7CBF77B79DCBB /* SpectrumView.xib in Resources */,
+				B71B4CB48BFA1B43536ED175 /* MentalPictureView.xib in Resources */,
+				256F422E871A7EDFE466A9D8 /* ScaleVisualView.xib in Resources */,
+				22AB4B55ABC4B82BEBE2EDFE /* VisualSystemView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05814C62B420DD0BA3B2FA5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zdfti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38B1474C8383078DEDF5A142 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zdfti/Pods-zdfti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zdfti/Pods-zdfti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zdfti/Pods-zdfti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F764294B537C8010D1FB106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7A435CB271AD5A79C77B06 /* JabbingViewController.m in Sources */,
+				257243F2A4F7175822F52E84 /* HideViewController.m in Sources */,
+				CB804E37AA6BE6437F6DF9DB /* SourceViewController.m in Sources */,
+				ED984534A0247BE9B430BB8A /* ViewController.m in Sources */,
+				0DB448989021736B1FC78C2C /* CenterView.m in Sources */,
+				FD9A4DBD8A60D46D9B40C474 /* FrameNookAndCrannyViewController.m in Sources */,
+				0C5446E38055AF62F1A16C8D /* MotionViewController.m in Sources */,
+				898947D2BFFDAEBF1BEBAF9C /* AppDelegate.m in Sources */,
+				16AD41BB997FA287DA317DEE /* SyrinxOrbForefrontViewController.m in Sources */,
+				495E4E17A4392DF34B39CCF7 /* VerbalDescriptionViewController.m in Sources */,
+				70784FF1802E04339998C752 /* main.m in Sources */,
+				0F354D4EAF1BC1DD2F839788 /* AcrossTool.m in Sources */,
+				CC444E7FA1CB7F63AA809889 /* ResolveModel.m in Sources */,
+				D4154F1F9D8412B78FC4AA6F /* ResolveView.m in Sources */,
+				AA104D92931AE371A3D237EA /* ResolveController.m in Sources */,
+				99B8424C8120EA56AC585FE3 /* AcrossNetBase.m in Sources */,
+				21EC4E8BA549A052D2B6AECA /* AcrossNetTool.m in Sources */,
+				A2BB41BB9A4F9D226F59AFA9 /* ResolveNetModel.m in Sources */,
+				4FA44D59AB6B5C1509E336D8 /* ResolveNetManager.m in Sources */,
+				83E74E39B0EEAB9325B611D8 /* AcrossDataBase.m in Sources */,
+				C303462DB3E980DC28696C94 /* AcrossDataTool.m in Sources */,
+				48C24A048A87E9E51142A840 /* ResolveDataModel.m in Sources */,
+				874143BE9763CDDD5CDD8A87 /* ResolveDataManager.m in Sources */,
+				764B41DE99F7D0F45169C173 /* SumModel.m in Sources */,
+				A90E4F58BFBE6F442B527CBB /* SumView.m in Sources */,
+				E2DD4C6EA34862C9D47EAC04 /* SumController.m in Sources */,
+				9F5C4641A416D257B4F02E89 /* SumNetModel.m in Sources */,
+				DF6641EA96D89A5AD15B930E /* SumNetManager.m in Sources */,
+				07CF44598C6165FAF28E3085 /* SumDataModel.m in Sources */,
+				BA5F4FB3B1C578208D2BC904 /* SumDataManager.m in Sources */,
+				E923432D878D4B8C6DB2DC66 /* AircraftModel.m in Sources */,
+				4C00463C8FE37BC1CAC25AEC /* AircraftView.m in Sources */,
+				848149A88E395052B120FCA2 /* AircraftController.m in Sources */,
+				A3DC448B861DF9C8F553FDBE /* AircraftNetModel.m in Sources */,
+				EDA3482BB8A5D79EF9D86DD2 /* AircraftNetManager.m in Sources */,
+				3471429E8507A260021D0058 /* AircraftDataModel.m in Sources */,
+				407449E2892C356BCCE51C5F /* AircraftDataManager.m in Sources */,
+				5AEF4DAF9CEE84227DF82328 /* AddTogetherModel.m in Sources */,
+				F6CF4459A4355ADD3CE4C31A /* AddTogetherView.m in Sources */,
+				981443BF92923CB9C9730F42 /* AddTogetherController.m in Sources */,
+				C14B467185FFCCB117430056 /* AddTogetherNetModel.m in Sources */,
+				BDB34AA7BF2AAA2E8D889097 /* AddTogetherNetManager.m in Sources */,
+				172346D6B0EB5250A43E60FC /* AddTogetherDataModel.m in Sources */,
+				040741FF8AF85D3C07954629 /* AddTogetherDataManager.m in Sources */,
+				5DE041D29EED1D43128365D6 /* DarkModel.m in Sources */,
+				D3D145A0BAB15883E3B75962 /* DarkView.m in Sources */,
+				745A4CEEBBB9002855574B28 /* DarkController.m in Sources */,
+				070E4BBE9DB115BBB31C85FD /* DarkNetModel.m in Sources */,
+				F2C1496C9A067D4AFB9DD04C /* DarkNetManager.m in Sources */,
+				8439488EB655F274D4C92243 /* DarkDataModel.m in Sources */,
+				47BA4F09874C17B80C7AF461 /* DarkDataManager.m in Sources */,
+				26144AB698DC7C51AC7B2A81 /* DistanceModel.m in Sources */,
+				A6AF4B2DB8905D245E16D74B /* DistanceView.m in Sources */,
+				510E4DD9AA92ABF2C295357F /* DistanceController.m in Sources */,
+				488E423BA9E254096F599455 /* DistanceNetModel.m in Sources */,
+				17AE451D93A23CD9FBEDEEB6 /* DistanceNetManager.m in Sources */,
+				0C144404917F8FB07889D1AE /* DistanceDataModel.m in Sources */,
+				B81743F588499A4E3D4D9F45 /* DistanceDataManager.m in Sources */,
+				E5434777AA2BDF744550E531 /* OfTinModel.m in Sources */,
+				407B41399A5F3446A26BD8A5 /* OfTinView.m in Sources */,
+				D5FB4E47852C9CC6844FE716 /* OfTinController.m in Sources */,
+				2E4A4443BBEBBAA6E2D7C6BE /* OfTinNetModel.m in Sources */,
+				1BC647B698C5DBE7FEF135B7 /* OfTinNetManager.m in Sources */,
+				9C374D4D800CCF351465F097 /* OfTinDataModel.m in Sources */,
+				F21348D6B89C20195F8D295A /* OfTinDataManager.m in Sources */,
+				D15447718033CD324FBC8C32 /* PictureModel.m in Sources */,
+				8A664E8294186CD6A956C689 /* PictureView.m in Sources */,
+				D8374196AEB17F635C24E86E /* PictureController.m in Sources */,
+				33D247A491EF47F38E8BA7AC /* PictureNetModel.m in Sources */,
+				C3EE44CBBAA6A693D47C4BD6 /* PictureNetManager.m in Sources */,
+				351C4A67B51BBC096B470C81 /* PictureDataModel.m in Sources */,
+				B7E7451794D1043C7D64E8EA /* PictureDataManager.m in Sources */,
+				F9FC4DD38CF80E9C70F8796E /* VisualModel.m in Sources */,
+				7F1B4AAD85E0995035F6297C /* VisualView.m in Sources */,
+				92D849FBBDA01B2D191A4106 /* VisualController.m in Sources */,
+				9D0042D59B24BE13DC29C507 /* VisualNetModel.m in Sources */,
+				AADE40EE8858A6BCED4895BF /* VisualNetManager.m in Sources */,
+				391B43DE9E43B4E1FA04F82F /* VisualDataModel.m in Sources */,
+				1CCA49EC92DE49FEF6F309CF /* VisualDataManager.m in Sources */,
+				A45A4863B4B8AFC1DA6C1F04 /* WillOriginModel.m in Sources */,
+				17FC4D6CBF74C1180B25FFE4 /* WillOriginView.m in Sources */,
+				6C274A99A43BA15BE6C8C864 /* WillOriginController.m in Sources */,
+				909644D2B3867447852406E3 /* WillOriginNetModel.m in Sources */,
+				396F44B0AF3EAE6A569F5E07 /* WillOriginNetManager.m in Sources */,
+				262840A680594082D131B964 /* WillOriginDataModel.m in Sources */,
+				7D6D44CABB387EBCD60EA8CD /* WillOriginDataManager.m in Sources */,
+				69954939856BDD8DA8BCDD60 /* KeyGuideLastModel.m in Sources */,
+				42FC4FEF9FC8AE125AB7D90D /* KeyGuideLastView.m in Sources */,
+				2B254312B44494D8DB9B23BF /* KeyGuideLastController.m in Sources */,
+				CC91489BA208C4E352484908 /* KeyGuideLastNetModel.m in Sources */,
+				457049568736DC21AB665DB3 /* KeyGuideLastNetManager.m in Sources */,
+				95A04BE484B44C2FF0958391 /* KeyGuideLastDataModel.m in Sources */,
+				ABC947AEA47499479E28F46C /* KeyGuideLastDataManager.m in Sources */,
+				9D014C5DA75B8B44D2252DC5 /* ItemLightModel.m in Sources */,
+				04ED4E809527F7AC13ABD53D /* ItemLightView.m in Sources */,
+				4DEC454EB9F5EED42077C146 /* ItemLightController.m in Sources */,
+				5A31486583E9B5FC127B6E72 /* ItemLightNetModel.m in Sources */,
+				5D6C47EFA473F52D52F735E5 /* ItemLightNetManager.m in Sources */,
+				F67A4897BCDBFE380EB38657 /* ItemLightDataModel.m in Sources */,
+				0B3D46B7A48ACD7B6E6364F8 /* ItemLightDataManager.m in Sources */,
+				E7D243B1A33D4AF0EF5851CE /* SpectrumModel.m in Sources */,
+				3542416CBC4039BCA2D2DECD /* SpectrumView.m in Sources */,
+				864A4C5D96881F1DEF46EBB6 /* SpectrumController.m in Sources */,
+				140441F4AB1A8653DEB410EF /* SpectrumNetModel.m in Sources */,
+				30CB4C3281851DB216D4410C /* SpectrumNetManager.m in Sources */,
+				CF884E5DAB7A3BF00F68B739 /* SpectrumDataModel.m in Sources */,
+				506448358BB1EBFA0A458A47 /* SpectrumDataManager.m in Sources */,
+				C4E449E28E706D7BDC581F13 /* MentalPictureModel.m in Sources */,
+				88134FA288ECEA17EB9CF651 /* MentalPictureView.m in Sources */,
+				05C94193BD00923E81B6DAE6 /* MentalPictureController.m in Sources */,
+				1041415FBD67337E5C1679BA /* MentalPictureNetModel.m in Sources */,
+				FA3D4DDE872C13D395D7A544 /* MentalPictureNetManager.m in Sources */,
+				550A485684B93B0D339B6104 /* MentalPictureDataModel.m in Sources */,
+				9C504BBF9AB39C545723AA6F /* MentalPictureDataManager.m in Sources */,
+				E1EA4254921FA66175C8086D /* DescriptionScaleModel.m in Sources */,
+				916F49849A39DE3C7C0421ED /* DescriptionScaleView.m in Sources */,
+				1D004C319470312EFC884D04 /* DescriptionScaleController.m in Sources */,
+				FA9F403188BD10A912353EE5 /* DescriptionScaleNetModel.m in Sources */,
+				E6864712B920EABBCF20834C /* DescriptionScaleNetManager.m in Sources */,
+				F44544D1B92D0A6465848D69 /* DescriptionScaleDataModel.m in Sources */,
+				26FA443ABB3DBE7C48E9F093 /* DescriptionScaleDataManager.m in Sources */,
+				1387447296A7A9A4E653CD30 /* DarkErrorModel.m in Sources */,
+				19C14A82BF4822327B37BC12 /* DarkErrorView.m in Sources */,
+				0BF84BA08705C4BD9D0691BB /* DarkErrorController.m in Sources */,
+				C02941A7828E594D975E22A4 /* DarkErrorNetModel.m in Sources */,
+				A805432DB8DD12F3D0806D76 /* DarkErrorNetManager.m in Sources */,
+				9D5144FA9B69397B0857C1E3 /* DarkErrorDataModel.m in Sources */,
+				1B4342D9BC3D71232A9E0B5B /* DarkErrorDataManager.m in Sources */,
+				66F44439958BFD627A8C95EF /* NumberModel.m in Sources */,
+				67CE4F30A6F2DDDF53F8FA36 /* NumberView.m in Sources */,
+				2F9645EB8CE3879F025BDD19 /* NumberController.m in Sources */,
+				A7454510B215FE8F75701BE9 /* NumberNetModel.m in Sources */,
+				752D4CA899A641FFAC36DEEA /* NumberNetManager.m in Sources */,
+				F61346CF88890497028DEBD4 /* NumberDataModel.m in Sources */,
+				091A465F80CEF0B49054F65D /* NumberDataManager.m in Sources */,
+				D80E4BB7BF368F5790959D87 /* ScaleVisualModel.m in Sources */,
+				C2EB40009D527AB7AFF004F1 /* ScaleVisualView.m in Sources */,
+				96AF45D896B82B91345D0944 /* ScaleVisualController.m in Sources */,
+				A8B9400A9C9203703AB46947 /* ScaleVisualNetModel.m in Sources */,
+				E01F427AA4027C359B8D3FC8 /* ScaleVisualNetManager.m in Sources */,
+				C8BE412F96EC7CAB084405EE /* ScaleVisualDataModel.m in Sources */,
+				8F9D43A4ACD17942AB7143C7 /* ScaleVisualDataManager.m in Sources */,
+				076747579C267628759E06D9 /* VisualSystemModel.m in Sources */,
+				48504E6AB8250BD3804AFF30 /* VisualSystemView.m in Sources */,
+				54F94974B12BE09769509F5A /* VisualSystemController.m in Sources */,
+				1586492B8751B5442F66D5CB /* VisualSystemNetModel.m in Sources */,
+				B401484A81F422927391C1A3 /* VisualSystemNetManager.m in Sources */,
+				C7034BFB8D7B4F355110B677 /* VisualSystemDataModel.m in Sources */,
+				E8924BE3ADFC80187C2B00FC /* VisualSystemDataManager.m in Sources */,
+				FFA542D883A3F8F562315E73 /* LevelModel.m in Sources */,
+				C9494646BFB9377382DFBADF /* LevelView.m in Sources */,
+				4FAC40C29A1975DAE8A1090C /* LevelController.m in Sources */,
+				C60149579D243C06350971CC /* LevelNetModel.m in Sources */,
+				B19A46E887F2163389A083DB /* LevelNetManager.m in Sources */,
+				81564993A828F51F496C5FBA /* LevelDataModel.m in Sources */,
+				6C8C47CA82AAE205E8EE2ACC /* LevelDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		670D4B5CABBABF81FD9B88C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991F4E0C9146603864E16B4D /* Base */,
+				D313480E9182059C80325CA5 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1A542509C6EE2C6FE07065F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960443F491C58F19F7B6248A /* Base */,
+				EF004182919B8D883CF64B73 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		012A449695411C28FB79BB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51F4D868BB08DF8CCDB9825 /* Pods-zdfti.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GFQY5G6YRN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zdfti/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "网信传送";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdfti.flltios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = flltios;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3DD24D23A878E4B74C7D3BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92540A0821FCA9300CB63EF /* Pods-zdfti.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GFQY5G6YRN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zdfti/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "网信传送";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdfti.flltios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = flltios;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4E6E4721BAFE37E2FB44353F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA5340B89CC4FD8660BD2D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7517402ABEF9D3173167256D /* Build configuration list for PBXProject "zdfti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6E4721BAFE37E2FB44353F /* Debug */,
+				AA5340B89CC4FD8660BD2D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB784ADD95406F527CAF61CD /* Build configuration list for PBXNativeTarget "zdfti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD24D23A878E4B74C7D3BE1 /* Debug */,
+				012A449695411C28FB79BB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 148448C7A87E0ED7AD996CAD /* Project object */;
+}

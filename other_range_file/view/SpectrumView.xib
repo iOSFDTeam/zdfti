@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SpectrumView">
+            <connections>
+                <outlet property="childAtButton" destination="xv0-kD-1TA" id="LAL-tH-4ZT"/>
+                <outlet property="waveImageView" destination="3XY-Hs-0Jo" id="qxT-S2-RFW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Yzz-Yi-Ljw">
+            <rect key="frame" x="0.0" y="0.0" width="204.1" height="207.9"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button contentMode="bottomLeft" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xv0-kD-1TA" hidden="YES">
+                    <rect key="frame" x="13" y="108" width="162.5" height="64.8"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="time not priority text view" image="index_pic">
+                        <color key="titleColor" red="0.0" green="1" blue="0.1594184416020521" alpha="0.92157331779974321" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected" title="visual appear view priority" image="attribute_img">
+                        <color key="titleColor" red="0.394796696" green="0.83161484770000005" blue="0.75892637900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" title="change at" image="method_pic">
+                        <color key="titleColor" red="0.0" green="1" blue="0.09280372418540672" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="when" highlightedImage="inking_pad" translatesAutoresizingMaskIntoConstraints="NO" id="3XY-Hs-0Jo" adjustsImageSizeForAccessibilityContentSizeCategory="YES">
+                    <rect key="frame" x="14" y="9" width="162.5" height="94.6"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="5pU-KF-wCP"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="3XY-Hs-0Jo" firstAttribute="leading" secondItem="5pU-KF-wCP" secondAttribute="leading" constant="4" id="bCo-cy-WK0"/>
+                <constraint firstItem="5pU-KF-wCP" firstAttribute="trailing" secondItem="xv0-kD-1TA" secondAttribute="trailing" constant="1" id="2cy-8W-fr8"/>
+                <constraint firstItem="5pU-KF-wCP" firstAttribute="bottom" secondItem="3XY-Hs-0Jo" secondAttribute="bottom" constant="2" id="HQC-BJ-dp4"/>
+                <constraint firstItem="xv0-kD-1TA" firstAttribute="leading" secondItem="5pU-KF-wCP" secondAttribute="leading" constant="8" id="Xe3-NN-lF4"/>
+                <constraint firstItem="3XY-Hs-0Jo" firstAttribute="top" secondItem="xv0-kD-1TA" secondAttribute="bottom" constant="7" id="B08-BJ-1K4"/>
+                <constraint firstItem="5pU-KF-wCP" firstAttribute="trailing" secondItem="3XY-Hs-0Jo" secondAttribute="trailing" constant="5" id="kpN-In-6fD"/>
+                <constraint firstItem="xv0-kD-1TA" firstAttribute="top" secondItem="Yzz-Yi-Ljw" secondAttribute="top" constant="6" id="yoa-s3-NOg"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-29.084265585883339" y="-161.96885603467758"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="when" width="119.5" height="113.1"/>
+        <image name="inking_pad" width="119.5" height="113.1"/>
+        <image name="index_pic" width="72.7" height="75.9"/>
+        <image name="method_pic" width="72.7" height="75.9"/>
+        <image name="attribute_img" width="72.7" height="75.9"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="0.9871361280801807" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
